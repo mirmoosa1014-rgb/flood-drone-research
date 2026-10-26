@@ -1,0 +1,24 @@
+[
+  {
+    "synthetic": true,
+    "episodes": 20,
+    "samples": 2100,
+    "storm_multiplier": 1.0,
+    "model_mae_m": 0.02297025309252838,
+    "persistence_mae_m": 0.06076014586559849,
+    "split": "held_out",
+    "absolute_error_p95_m": 0.06288460071598234,
+    "per_episode_mae_std_m": 0.002637586185960306
+  },
+  {
+    "synthetic": true,
+    "episodes": 20,
+    "samples": 2100,
+    "storm_multiplier": 2.5,
+    "model_mae_m": 0.05804975209520141,
+    "persistence_mae_m": 0.15700109206915655,
+    "split": "ood_intense",
+    "absolute_error_p95_m": 0.18880306471147745,
+    "per_episode_mae_std_m": 0.021649930777245648
+  }
+]

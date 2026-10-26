@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+.env*
+!.env.example
+*.tlog
+*.BIN
+private/
+.DS_Store
+
+.env.*
+!.env.example

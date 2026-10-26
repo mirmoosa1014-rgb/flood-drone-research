@@ -1,0 +1,3617 @@
+{
+  "synthetic": true,
+  "seed": 2026,
+  "storm": 1.0,
+  "samples": [
+    {
+      "minute": 0,
+      "rain_mm_h": 2.302754548079425,
+      "gauge_m": 0.016178566129510134,
+      "truth_m": 0.010516393983365702,
+      "accumulated_rain_mm": 0.03837924246799042,
+      "x_m": 0.0,
+      "road_m": 0.6,
+      "water_surface_m": 0.6,
+      "roll_rad": 0.0,
+      "pitch_rad": 0.09,
+      "slant_range_m": 4.932931971203116,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 4.912967078481988,
+        "depth_m": null,
+        "raw_depth_m": -0.012967078481988081,
+        "sigma_m": 0.04915715584108408,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.0370386723022962
+    },
+    {
+      "minute": 1,
+      "rain_mm_h": 3.468461282882361,
+      "gauge_m": 0.04479196841930748,
+      "truth_m": 0.01137747804960558,
+      "accumulated_rain_mm": 0.09618693051602978,
+      "x_m": 0.5042016806722689,
+      "road_m": 0.5800014123296378,
+      "water_surface_m": 0.5800014123296378,
+      "roll_rad": 0.0162077153400796,
+      "pitch_rad": 0.08962835523305065,
+      "slant_range_m": 4.951018796346653,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.930498071977699,
+        "depth_m": 0,
+        "raw_depth_m": -0.010499484307337159,
+        "sigma_m": 0.04916262303040913,
+        "interval_95_m": [
+          0,
+          0.08585925683226474
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.05804507671520215
+    },
+    {
+      "minute": 2,
+      "rain_mm_h": 4.64378760595591,
+      "gauge_m": 0,
+      "truth_m": 0.012579859976831689,
+      "accumulated_rain_mm": 0.17358339061529493,
+      "x_m": 1.0084033613445378,
+      "road_m": 0.5603417837723325,
+      "water_surface_m": 0.5603417837723325,
+      "roll_rad": 0.03216251470308798,
+      "pitch_rad": 0.0885164902618204,
+      "slant_range_m": 4.974827148202429,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.9527878100459795,
+        "depth_m": 0,
+        "raw_depth_m": -0.013129593818311913,
+        "sigma_m": 0.04917645290205234,
+        "interval_95_m": [
+          0,
+          0.08325625386971067
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.03687553929072132
+    },
+    {
+      "minute": 3,
+      "rain_mm_h": 5.638026452217496,
+      "gauge_m": 0.002081875474471825,
+      "truth_m": 0.014062271456025054,
+      "accumulated_rain_mm": 0.2675504981522532,
+      "x_m": 1.5126050420168067,
+      "road_m": 0.5410211143280841,
+      "water_surface_m": 0.5410211143280841,
+      "roll_rad": 0.047615428781186186,
+      "pitch_rad": 0.08667358772626729,
+      "slant_range_m": 4.984438870589552,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.9601001030903245,
+        "depth_m": 0,
+        "raw_depth_m": -0.0011212174184085377,
+        "sigma_m": 0.04919618665357341,
+        "interval_95_m": [
+          0,
+          0.09530330842259534
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.0415448470468246
+    },
+    {
+      "minute": 4,
+      "rain_mm_h": 6.790501821789337,
+      "gauge_m": 1.874540942942496e-05,
+      "truth_m": 0.015867655783043003,
+      "accumulated_rain_mm": 0.3807255285154088,
+      "x_m": 2.0168067226890756,
+      "road_m": 0.5220394039968929,
+      "water_surface_m": 0.5220394039968929,
+      "roll_rad": 0.06232532001854639,
+      "pitch_rad": 0.08411486773935435,
+      "slant_range_m": 4.97833825218483,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.951105250251731,
+        "depth_m": 0.026855345751375714,
+        "raw_depth_m": 0.026855345751375714,
+        "sigma_m": 0.04922000323763408,
+        "interval_95_m": [
+          0,
+          0.1233265520971385
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.04435045885923197
+    },
+    {
+      "minute": 5,
+      "rain_mm_h": 7.763063806412261,
+      "gauge_m": 0.008356831750016789,
+      "truth_m": 0.01793543706112587,
+      "accumulated_rain_mm": 0.5101099252889465,
+      "x_m": 2.5210084033613445,
+      "road_m": 0.5033966527787587,
+      "water_surface_m": 0.5033966527787587,
+      "roll_rad": 0.07606264548226009,
+      "pitch_rad": 0.0808614621875977,
+      "slant_range_m": 5.045603136186011,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.01457556253646,
+        "depth_m": 0,
+        "raw_depth_m": -0.01797221531521853,
+        "sigma_m": 0.04925661342819557,
+        "interval_95_m": [
+          0,
+          0.07857074700404477
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.052129397926671664
+    },
+    {
+      "minute": 6,
+      "rain_mm_h": 7.485767195934358,
+      "gauge_m": 0.031008949401505306,
+      "truth_m": 0.019881091787463116,
+      "accumulated_rain_mm": 0.6348727118878524,
+      "x_m": 3.0252100840336134,
+      "road_m": 0.48509286067368124,
+      "water_surface_m": 0.48509286067368124,
+      "roll_rad": 0.08861303880303344,
+      "pitch_rad": 0.07694024020762119,
+      "slant_range_m": 5.05343551128786,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.018716389628296,
+        "depth_m": 0,
+        "raw_depth_m": -0.003809250301977485,
+        "sigma_m": 0.049288680494773286,
+        "interval_95_m": [
+          0,
+          0.09279656346777815
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.07005274904602839
+    },
+    {
+      "minute": 7,
+      "rain_mm_h": 11.835181611322067,
+      "gauge_m": 0,
+      "truth_m": 0.02311248673392416,
+      "accumulated_rain_mm": 0.8321257387432202,
+      "x_m": 3.5294117647058822,
+      "road_m": 0.46712802768166084,
+      "water_surface_m": 0.46712802768166084,
+      "roll_rad": 0.09978065529068353,
+      "pitch_rad": 0.07238358628006715,
+      "slant_range_m": 5.079948556910033,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.041445166303508,
+        "depth_m": 0,
+        "raw_depth_m": -0.008573193985169092,
+        "sigma_m": 0.04932338446883687,
+        "interval_95_m": [
+          0,
+          0.08810063957375117
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.05800076383981022
+    },
+    {
+      "minute": 8,
+      "rain_mm_h": 13.287989813415077,
+      "gauge_m": 0.019353337964546947,
+      "truth_m": 0.026726056499448966,
+      "accumulated_rain_mm": 1.0535922356334715,
+      "x_m": 4.033613445378151,
+      "road_m": 0.4495021538026976,
+      "water_surface_m": 0.4495021538026976,
+      "roll_rad": 0.10939122802502654,
+      "pitch_rad": 0.06722913277353505,
+      "slant_range_m": 5.082400335220194,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.040608872381388,
+        "depth_m": 0.009888973815914193,
+        "raw_depth_m": 0.009888973815914193,
+        "sigma_m": 0.049351954535868804,
+        "interval_95_m": [
+          0,
+          0.10661880470621704
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.07381869495389728
+    },
+    {
+      "minute": 9,
+      "rain_mm_h": 13.017750064146762,
+      "gauge_m": 0.014678379691398246,
+      "truth_m": 0.030191324784450992,
+      "accumulated_rain_mm": 1.2705547367025842,
+      "x_m": 4.53781512605042,
+      "road_m": 0.43221523903679127,
+      "water_surface_m": 0.43221523903679127,
+      "roll_rad": 0.11729478723288238,
+      "pitch_rad": 0.06151944914740678,
+      "slant_range_m": 5.105711510289926,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.061037164765984,
+        "depth_m": 0.006747596197224981,
+        "raw_depth_m": 0.006747596197224981,
+        "sigma_m": 0.04937929791900193,
+        "interval_95_m": [
+          0,
+          0.10353102011846876
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.06709747974054134
+    },
+    {
+      "minute": 10,
+      "rain_mm_h": 19.983078539601625,
+      "gauge_m": 0.0765372267153535,
+      "truth_m": 0.03570922821419467,
+      "accumulated_rain_mm": 1.6036060456959447,
+      "x_m": 5.042016806722689,
+      "road_m": 0.41526728338394187,
+      "water_surface_m": 0.41526728338394187,
+      "roll_rad": 0.1233680005162262,
+      "pitch_rad": 0.05530169038036206,
+      "slant_range_m": 5.129201219412108,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.08243667560427,
+        "depth_m": 0.002296041011788319,
+        "raw_depth_m": 0.002296041011788319,
+        "sigma_m": 0.04940012089695962,
+        "interval_95_m": [
+          0,
+          0.09912027796982918
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.13289313803743155
+    },
+    {
+      "minute": 11,
+      "rain_mm_h": 23.1606120559644,
+      "gauge_m": 0.02266485698753189,
+      "truth_m": 0.042091402061067165,
+      "accumulated_rain_mm": 1.9896162466286846,
+      "x_m": 5.546218487394958,
+      "road_m": 0.3986582868441494,
+      "water_surface_m": 0.3986582868441494,
+      "roll_rad": 0.12751609741301023,
+      "pitch_rad": 0.04862720752813258,
+      "slant_range_m": 5.143663152800162,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.0958700907832,
+        "depth_m": 0.00547162237265042,
+        "raw_depth_m": 0.00547162237265042,
+        "sigma_m": 0.04941090963246933,
+        "interval_95_m": [
+          0,
+          0.1023170052522903
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.11883484339737732
+    },
+    {
+      "minute": 12,
+      "rain_mm_h": 22.182701435798908,
+      "gauge_m": 0.06829383796926448,
+      "truth_m": 0.04805955787791213,
+      "accumulated_rain_mm": 2.3593279372253333,
+      "x_m": 6.050420168067227,
+      "road_m": 0.38238824941741406,
+      "water_surface_m": 0.38238824941741406,
+      "roll_rad": 0.12967434825852708,
+      "pitch_rad": 0.04155112362680997,
+      "slant_range_m": 5.158598210193475,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.110871786626486,
+        "depth_m": 0.006739963956099826,
+        "raw_depth_m": 0.006739963956099826,
+        "sigma_m": 0.0494122303598104,
+        "interval_95_m": [
+          0,
+          0.1035879354613282
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.12932013604930362
+    },
+    {
+      "minute": 13,
+      "rain_mm_h": 25.60894679499336,
+      "gauge_m": 0.06548145040372845,
+      "truth_m": 0.05495929600293385,
+      "accumulated_rain_mm": 2.7861437171418895,
+      "x_m": 6.554621848739496,
+      "road_m": 0.3664571711037357,
+      "water_surface_m": 0.3664571711037357,
+      "roll_rad": 0.12980907427017813,
+      "pitch_rad": 0.034131878444225806,
+      "slant_range_m": 5.169364273014698,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.1228869860002275,
+        "depth_m": null,
+        "raw_depth_m": 0.010655842896036771,
+        "sigma_m": 0.04940266243365745,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1446871359381096
+    },
+    {
+      "minute": 14,
+      "rain_mm_h": 25.852850714517064,
+      "gauge_m": 0.012494650501710135,
+      "truth_m": 0.06180673071174522,
+      "accumulated_rain_mm": 3.2170245623838407,
+      "x_m": 7.0588235294117645,
+      "road_m": 0.35086505190311423,
+      "water_surface_m": 0.35086505190311423,
+      "roll_rad": 0.1279181730936118,
+      "pitch_rad": 0.026430745839198376,
+      "slant_range_m": 5.192626072146371,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.148401527421083,
+        "depth_m": 0.0007334206758031758,
+        "raw_depth_m": 0.0007334206758031758,
+        "sigma_m": 0.049385399190670136,
+        "interval_95_m": [
+          0,
+          0.09752880308951664
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1108771102408698
+    },
+    {
+      "minute": 15,
+      "rain_mm_h": 34.10216486853597,
+      "gauge_m": 0.08454256840255392,
+      "truth_m": 0.07103492370457114,
+      "accumulated_rain_mm": 3.7853939768594405,
+      "x_m": 7.563025210084033,
+      "road_m": 0.3356118918155496,
+      "water_surface_m": 0.3356118918155496,
+      "roll_rad": 0.1240311516092602,
+      "pitch_rad": 0.018511327714666365,
+      "slant_range_m": 5.230272512138357,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.189204301886354,
+        "depth_m": 0,
+        "raw_depth_m": -0.02481619370190391,
+        "sigma_m": 0.04936111451350054,
+        "interval_95_m": [
+          0,
+          0.07193159074455714
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20082160157524961
+    },
+    {
+      "minute": 16,
+      "rain_mm_h": 36.08241603655067,
+      "gauge_m": 0.11960440184796861,
+      "truth_m": 0.08069567125172775,
+      "accumulated_rain_mm": 4.386767577468619,
+      "x_m": 8.067226890756302,
+      "road_m": 0.32069769084104227,
+      "water_surface_m": 0.32069769084104227,
+      "roll_rad": 0.11820866548733863,
+      "pitch_rad": 0.01043902874403566,
+      "slant_range_m": 5.2432409898210555,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.206367276305186,
+        "depth_m": 0,
+        "raw_depth_m": -0.027064967146228303,
+        "sigma_m": 0.04932465010401433,
+        "interval_95_m": [
+          0,
+          0.06961134705763979
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21060170435499506
+    },
+    {
+      "minute": 17,
+      "rain_mm_h": 36.46079011273158,
+      "gauge_m": 0.09639160918287017,
+      "truth_m": 0.09029438670987794,
+      "accumulated_rain_mm": 4.994447412680811,
+      "x_m": 8.571428571428571,
+      "road_m": 0.30612244897959184,
+      "water_surface_m": 0.30612244897959184,
+      "roll_rad": 0.11054157267639876,
+      "pitch_rad": 0.0022805162088548733,
+      "slant_range_m": 5.214226248201203,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.182387738283146,
+        "depth_m": 0.011489812737262128,
+        "raw_depth_m": 0.011489812737262128,
+        "sigma_m": 0.04927708537641606,
+        "interval_95_m": [
+          0,
+          0.10807290007503761
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20668141895780806
+    },
+    {
+      "minute": 18,
+      "rain_mm_h": 40.87435434933279,
+      "gauge_m": 0.07435881237553238,
+      "truth_m": 0.10105812745703505,
+      "accumulated_rain_mm": 5.675686651836358,
+      "x_m": 9.07563025210084,
+      "road_m": 0.29188616623119834,
+      "water_surface_m": 0.29188616623119834,
+      "roll_rad": 0.10114951559542976,
+      "pitch_rad": -0.005896830591102914,
+      "slant_range_m": 5.225325996578698,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.198527653301089,
+        "depth_m": 0.009586180467712535,
+        "raw_depth_m": 0.009586180467712535,
+        "sigma_m": 0.04923251886651931,
+        "interval_95_m": [
+          0,
+          0.10608191744609038
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20832055391799453
+    },
+    {
+      "minute": 19,
+      "rain_mm_h": 45.783245463383324,
+      "gauge_m": 0.13283040695725026,
+      "truth_m": 0.11311603423158106,
+      "accumulated_rain_mm": 6.438740742892747,
+      "x_m": 9.579831932773109,
+      "road_m": 0.27798884259586176,
+      "water_surface_m": 0.27798884259586176,
+      "roll_rad": 0.09017905415392534,
+      "pitch_rad": -0.014025476808154677,
+      "slant_range_m": 5.248719970836552,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.226878305442289,
+        "depth_m": 0,
+        "raw_depth_m": -0.004867148038151137,
+        "sigma_m": 0.04918896133864097,
+        "interval_95_m": [
+          0,
+          0.09154321618558517
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2441626104336625
+    },
+    {
+      "minute": 20,
+      "rain_mm_h": 41.80825884667247,
+      "gauge_m": 0.08214208844819804,
+      "truth_m": 0.12374540940612024,
+      "accumulated_rain_mm": 7.135545057003954,
+      "x_m": 10.084033613445378,
+      "road_m": 0.26443047807358233,
+      "water_surface_m": 0.26443047807358233,
+      "roll_rad": 0.07780137873351435,
+      "pitch_rad": -0.0220382898016571,
+      "slant_range_m": 5.251370327248836,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.234213577148319,
+        "depth_m": 0.00135594477809875,
+        "raw_depth_m": 0.00135594477809875,
+        "sigma_m": 0.04914643786177062,
+        "interval_95_m": [
+          0,
+          0.09768296298716916
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21238600680341516
+    },
+    {
+      "minute": 21,
+      "rain_mm_h": 54.96637559776273,
+      "gauge_m": 0.136514517988043,
+      "truth_m": 0.13817758863033255,
+      "accumulated_rain_mm": 8.051651316966666,
+      "x_m": 10.588235294117647,
+      "road_m": 0.2512110726643599,
+      "water_surface_m": 0.2512110726643599,
+      "roll_rad": 0.06420963881931159,
+      "pitch_rad": -0.02986909357121957,
+      "slant_range_m": 5.248428729670268,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.235276903484914,
+        "depth_m": 0.013512023850725863,
+        "raw_depth_m": 0.013512023850725863,
+        "sigma_m": 0.049109832988085377,
+        "interval_95_m": [
+          0,
+          0.1097672965073732
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.306273773881612
+    },
+    {
+      "minute": 22,
+      "rain_mm_h": 55.942142577710186,
+      "gauge_m": 0.16939735155155589,
+      "truth_m": 0.15264181553560122,
+      "accumulated_rain_mm": 8.984020359928502,
+      "x_m": 11.092436974789916,
+      "road_m": 0.2383306263681943,
+      "water_surface_m": 0.2383306263681943,
+      "roll_rad": 0.04961592896680312,
+      "pitch_rad": -0.037453215289242815,
+      "slant_range_m": 5.265852500681189,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.25568390579085,
+        "depth_m": 0.005985467840955938,
+        "raw_depth_m": 0.005985467840955938,
+        "sigma_m": 0.04908305223912184,
+        "interval_95_m": [
+          0,
+          0.10218825022963475
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3174431087638754
+    },
+    {
+      "minute": 23,
+      "rain_mm_h": 57.31329378224783,
+      "gauge_m": 0.1575961550094268,
+      "truth_m": 0.16725762369267114,
+      "accumulated_rain_mm": 9.939241922965966,
+      "x_m": 11.596638655462185,
+      "road_m": 0.22578913918508575,
+      "water_surface_m": 0.22578913918508575,
+      "roll_rad": 0.03424797913724471,
+      "pitch_rad": -0.044728019419095516,
+      "slant_range_m": 5.291280302375713,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.282888599867579,
+        "depth_m": 0,
+        "raw_depth_m": -0.008677739052665168,
+        "sigma_m": 0.049067292688292206,
+        "interval_95_m": [
+          0,
+          0.08749415461638756
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.30548681191627153
+    },
+    {
+      "minute": 24,
+      "rain_mm_h": 72.55431754957073,
+      "gauge_m": 0.15629066291935262,
+      "truth_m": 0.18623600714854344,
+      "accumulated_rain_mm": 11.148480548792145,
+      "x_m": 12.100840336134453,
+      "road_m": 0.21358661111503424,
+      "water_surface_m": 0.21358661111503424,
+      "roll_rad": 0.01834560104778274,
+      "pitch_rad": -0.051633425007767866,
+      "slant_range_m": 5.285755128381588,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.277822474702388,
+        "depth_m": 0.00859091418257768,
+        "raw_depth_m": 0.00859091418257768,
+        "sigma_m": 0.0490629953040129,
+        "interval_95_m": [
+          0,
+          0.10475438497844297
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.38040509515345544
+    },
+    {
+      "minute": 25,
+      "rain_mm_h": 52.19038406569668,
+      "gauge_m": 0.20261791084136288,
+      "truth_m": 0.19867999119251126,
+      "accumulated_rain_mm": 12.018320283220424,
+      "x_m": 12.605042016806722,
+      "road_m": 0.2017230421580397,
+      "water_surface_m": 0.2017230421580397,
+      "roll_rad": 0.002156945989815228,
+      "pitch_rad": -0.058112401880800066,
+      "slant_range_m": 5.309814981097224,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.300839414420616,
+        "depth_m": 0,
+        "raw_depth_m": -0.002562456578655614,
+        "sigma_m": 0.049073133831853404,
+        "interval_95_m": [
+          0,
+          0.09362088573177706
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.29888320976742333
+    },
+    {
+      "minute": 26,
+      "rain_mm_h": 59.13910305967809,
+      "gauge_m": 0.21846174323644899,
+      "truth_m": 0.2130070741605074,
+      "accumulated_rain_mm": 13.003972000881726,
+      "x_m": 13.109243697478991,
+      "road_m": 0.1901984323141021,
+      "water_surface_m": 0.2130070741605074,
+      "roll_rad": -0.014065367488914089,
+      "pitch_rad": -0.0641114416415243,
+      "slant_range_m": 5.302130781562213,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.022808641846405298,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.290714514186277,
+        "depth_m": null,
+        "raw_depth_m": 0.019087053499620865,
+        "sigma_m": 0.04909552046232736,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.34942329813242096
+    },
+    {
+      "minute": 27,
+      "rain_mm_h": 73.6419763442862,
+      "gauge_m": 0.23721366337498712,
+      "truth_m": 0.2314777662375694,
+      "accumulated_rain_mm": 14.231338273286497,
+      "x_m": 13.61344537815126,
+      "road_m": 0.17901278158322148,
+      "water_surface_m": 0.2314777662375694,
+      "roll_rad": -0.030068195612262837,
+      "pitch_rad": -0.06958099958474519,
+      "slant_range_m": 5.269662337389357,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.05246498465434793,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.254534709324635,
+        "depth_m": 0.06645250909214345,
+        "raw_depth_m": 0.06645250909214345,
+        "sigma_m": 0.04912855805975845,
+        "interval_95_m": [
+          0,
+          0.16274448288927001
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4274508665770312
+    },
+    {
+      "minute": 28,
+      "rain_mm_h": 79.91527621231043,
+      "gauge_m": 0.2794044719189513,
+      "truth_m": 0.2515159505231053,
+      "accumulated_rain_mm": 15.56325954349167,
+      "x_m": 14.117647058823529,
+      "road_m": 0.16816608996539792,
+      "water_surface_m": 0.2515159505231053,
+      "roll_rad": -0.04560181959965058,
+      "pitch_rad": -0.07447590387519328,
+      "slant_range_m": 5.267461445519949,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.0833498605577074,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.247399004361873,
+        "depth_m": 0.08443490567272885,
+        "raw_depth_m": 0.08443490567272885,
+        "sigma_m": 0.04917338973074731,
+        "interval_95_m": [
+          0,
+          0.18081474954499357
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4698302396512453
+    },
+    {
+      "minute": 29,
+      "rain_mm_h": 69.01328622613734,
+      "gauge_m": 0.28883515979367363,
+      "truth_m": 0.26787492903803056,
+      "accumulated_rain_mm": 16.71348098059396,
+      "x_m": 14.621848739495798,
+      "road_m": 0.15765835746063134,
+      "water_surface_m": 0.26787492903803056,
+      "roll_rad": -0.060423842444109165,
+      "pitch_rad": -0.07875572861144052,
+      "slant_range_m": 5.244981753023458,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.11021657157739922,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.219182012527079,
+        "depth_m": 0.12315963001228974,
+        "raw_depth_m": 0.12315963001228974,
+        "sigma_m": 0.049224076486356,
+        "interval_95_m": [
+          0.026680440099031977,
+          0.2196388199255475
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4217977632833099
+    },
+    {
+      "minute": 30,
+      "rain_mm_h": 69.4851022186669,
+      "gauge_m": 0.29095460798282363,
+      "truth_m": 0.28407755217841907,
+      "accumulated_rain_mm": 17.87156601757174,
+      "x_m": 15.126050420168067,
+      "road_m": 0.14748958406892168,
+      "water_surface_m": 0.28407755217841907,
+      "roll_rad": -0.07430297143650469,
+      "pitch_rad": -0.08238512769422722,
+      "slant_range_m": 5.262273117560816,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.1365879681094974,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.229954482490152,
+        "depth_m": 0.12255593344092627,
+        "raw_depth_m": 0.12255593344092627,
+        "sigma_m": 0.04928395210519673,
+        "interval_95_m": [
+          0.02595938731474068,
+          0.21915247956711187
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4324431682382866
+    },
+    {
+      "minute": 31,
+      "rain_mm_h": 73.13737965759773,
+      "gauge_m": 0.3527290488302118,
+      "truth_m": 0.3010929323497514,
+      "accumulated_rain_mm": 19.09052234519837,
+      "x_m": 15.630252100840336,
+      "road_m": 0.13765976979026906,
+      "water_surface_m": 0.3010929323497514,
+      "roll_rad": -0.08702262741090569,
+      "pitch_rad": -0.08533412674185807,
+      "slant_range_m": 5.216237588106057,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.16343316255948231,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.177590179832755,
+        "depth_m": 0.18475005037697567,
+        "raw_depth_m": 0.18475005037697567,
+        "sigma_m": 0.049336749556661764,
+        "interval_95_m": [
+          0.08805002124591861,
+          0.28145007950803275
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.48518547590047867
+    },
+    {
+      "minute": 32,
+      "rain_mm_h": 67.54431847265562,
+      "gauge_m": 0.2595856433131651,
+      "truth_m": 0.3160973768181676,
+      "accumulated_rain_mm": 20.216260986409296,
+      "x_m": 16.134453781512605,
+      "road_m": 0.1281689146246734,
+      "water_surface_m": 0.3160973768181676,
+      "roll_rad": -0.09838432439003067,
+      "pitch_rad": -0.08757837064180438,
+      "slant_range_m": 5.251080511360769,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.18792846219349418,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.205659523515174,
+        "depth_m": 0.16617156186015247,
+        "raw_depth_m": 0.16617156186015247,
+        "sigma_m": 0.049400425847109436,
+        "interval_95_m": [
+          0.06934672719981798,
+          0.26299639652048695
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.409625424284867
+    },
+    {
+      "minute": 33,
+      "rain_mm_h": 80.49997778238729,
+      "gauge_m": 0.34576188781398176,
+      "truth_m": 0.334762965951088,
+      "accumulated_rain_mm": 21.557927282782416,
+      "x_m": 16.638655462184875,
+      "road_m": 0.11901701857213472,
+      "water_surface_m": 0.334762965951088,
+      "roll_rad": -0.10821076689253835,
+      "pitch_rad": -0.08909932469404008,
+      "slant_range_m": 5.1962110511306125,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.2157459473789533,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.145326675742479,
+        "depth_m": 0.2356563056853866,
+        "raw_depth_m": 0.2356563056853866,
+        "sigma_m": 0.049442665766282826,
+        "interval_95_m": [
+          0.13874868078347224,
+          0.33256393058730094
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.524194802548279
+    },
+    {
+      "minute": 34,
+      "rain_mm_h": 66.75036903724181,
+      "gauge_m": 0.31429095436897536,
+      "truth_m": 0.34890936739010997,
+      "accumulated_rain_mm": 22.67043343340311,
+      "x_m": 17.142857142857142,
+      "road_m": 0.11020408163265308,
+      "water_surface_m": 0.34890936739010997,
+      "roll_rad": -0.11634861656971586,
+      "pitch_rad": -0.08988442768491445,
+      "slant_range_m": 5.2229525111360555,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.2387052857574569,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.16669890161133,
+        "depth_m": 0.2230970167560171,
+        "raw_depth_m": 0.2230970167560171,
+        "sigma_m": 0.04949322545320148,
+        "interval_95_m": [
+          0.1260902948677422,
+          0.320103738644292
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4478795506748334
+    },
+    {
+      "minute": 35,
+      "rain_mm_h": 58.44887246884504,
+      "gauge_m": 0.34661943987702803,
+      "truth_m": 0.3602745499110874,
+      "accumulated_rain_mm": 23.64458130788386,
+      "x_m": 17.647058823529413,
+      "road_m": 0.10173010380622836,
+      "water_surface_m": 0.3602745499110874,
+      "roll_rad": -0.12267088499912512,
+      "pitch_rad": -0.08992719562735912,
+      "slant_range_m": 5.2061108651238035,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.25854444610485905,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.146110416943245,
+        "depth_m": 0.25215947925052706,
+        "raw_depth_m": 0.25215947925052706,
+        "sigma_m": 0.04952392979452873,
+        "interval_95_m": [
+          0.15509257685325076,
+          0.3492263816478034
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4285250953871109
+    },
+    {
+      "minute": 36,
+      "rain_mm_h": 68.00055592554996,
+      "gauge_m": 0.34579160875108983,
+      "truth_m": 0.37433339507880814,
+      "accumulated_rain_mm": 24.77792390664303,
+      "x_m": 18.15126050420168,
+      "road_m": 0.09359508509286069,
+      "water_surface_m": 0.37433339507880814,
+      "roll_rad": -0.12707891529646262,
+      "pitch_rad": -0.08922727531066295,
+      "slant_range_m": 5.176131399610474,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.28073830998594745,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.113967616038204,
+        "depth_m": 0.29243729886893516,
+        "raw_depth_m": 0.29243729886893516,
+        "sigma_m": 0.04953862502824285,
+        "interval_95_m": [
+          0.19534159381357918,
+          0.38953300392429113
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.48566457827794873
+    },
+    {
+      "minute": 37,
+      "rain_mm_h": 66.68759317922621,
+      "gauge_m": 0.38739511415140626,
+      "truth_m": 0.38773579420200543,
+      "accumulated_rain_mm": 25.889383792963464,
+      "x_m": 18.65546218487395,
+      "road_m": 0.08579902549254992,
+      "water_surface_m": 0.38773579420200543,
+      "roll_rad": -0.1295039216232423,
+      "pitch_rad": -0.08779044721755885,
+      "slant_range_m": 5.173479620384103,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3019367687094555,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.110400533572626,
+        "depth_m": 0.3038004409348237,
+        "raw_depth_m": 0.3038004409348237,
+        "sigma_m": 0.04954625992938632,
+        "interval_95_m": [
+          0.20668977147322654,
+          0.4009111103964209
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4803136351949627
+    },
+    {
+      "minute": 38,
+      "rain_mm_h": 53.15634647232078,
+      "gauge_m": 0.3913346494614155,
+      "truth_m": 0.3967817673297325,
+      "accumulated_rain_mm": 26.775322900835477,
+      "x_m": 19.159663865546218,
+      "road_m": 0.07834192500529623,
+      "water_surface_m": 0.3967817673297325,
+      "roll_rad": -0.12990806256679915,
+      "pitch_rad": -0.08562857778453145,
+      "slant_range_m": 5.181027123012726,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3184398423244363,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.118548045699539,
+        "depth_m": 0.30311002929516484,
+        "raw_depth_m": 0.30311002929516484,
+        "sigma_m": 0.0495422255758156,
+        "interval_95_m": [
+          0.20600726716656625,
+          0.4002127914237634
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.44910347216698426
+    },
+    {
+      "minute": 39,
+      "rain_mm_h": 41.66804035730508,
+      "gauge_m": 0.4211998596753712,
+      "truth_m": 0.40217178484780564,
+      "accumulated_rain_mm": 27.469790240123896,
+      "x_m": 19.66386554621849,
+      "road_m": 0.07122378363109946,
+      "water_surface_m": 0.40217178484780564,
+      "roll_rad": -0.12828503164287736,
+      "pitch_rad": -0.08275952139961658,
+      "slant_range_m": 5.157471133318999,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3309480012167062,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.097583936760632,
+        "depth_m": null,
+        "raw_depth_m": 0.3311922796082686,
+        "sigma_m": 0.04951647901596919,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4110932285618166
+    },
+    {
+      "minute": 40,
+      "rain_mm_h": 50.68453586609482,
+      "gauge_m": 0.3875339777147742,
+      "truth_m": 0.4102023359763924,
+      "accumulated_rain_mm": 28.31453250455881,
+      "x_m": 20.168067226890756,
+      "road_m": 0.06444460136995975,
+      "water_surface_m": 0.4102023359763924,
+      "roll_rad": -0.124660155706208,
+      "pitch_rad": -0.07920697294707059,
+      "slant_range_m": 5.12269556547517,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.34575773460643267,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.067007135236023,
+        "depth_m": 0.3685482633940176,
+        "raw_depth_m": 0.3685482633940176,
+        "sigma_m": 0.049475664674831034,
+        "interval_95_m": [
+          0.27157596063134876,
+          0.4655205661566864
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4441558068281439
+    },
+    {
+      "minute": 41,
+      "rain_mm_h": 44.51328159976298,
+      "gauge_m": 0.40032751251692417,
+      "truth_m": 0.41621089415108425,
+      "accumulated_rain_mm": 29.056420531221526,
+      "x_m": 20.672268907563026,
+      "road_m": 0.058004378221876964,
+      "water_surface_m": 0.41621089415108425,
+      "roll_rad": -0.11908999973341167,
+      "pitch_rad": -0.07500027211670955,
+      "slant_range_m": 5.123995199241401,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.35820651592920727,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.073400214347732,
+        "depth_m": 0.3685954074303911,
+        "raw_depth_m": 0.3685954074303911,
+        "sigma_m": 0.049432027331219604,
+        "interval_95_m": [
+          0.2717086338612007,
+          0.4654821809995815
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4285537285003139
+    },
+    {
+      "minute": 42,
+      "rain_mm_h": 40.310163888508264,
+      "gauge_m": 0.43792539821759413,
+      "truth_m": 0.4208324369020747,
+      "accumulated_rain_mm": 29.728256596029997,
+      "x_m": 21.176470588235293,
+      "road_m": 0.051903114186851215,
+      "water_surface_m": 0.4208324369020747,
+      "roll_rad": -0.11166148414545697,
+      "pitch_rad": -0.07017416109408288,
+      "slant_range_m": 5.122775855563584,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3689293227152235,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.07834326722147,
+        "depth_m": 0.36975361859167866,
+        "raw_depth_m": 0.36975361859167866,
+        "sigma_m": 0.0493787128042527,
+        "interval_95_m": [
+          0.27297134149534336,
+          0.46653589568801396
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4469034853705467
+    },
+    {
+      "minute": 43,
+      "rain_mm_h": 36.66530461278443,
+      "gauge_m": 0.4150750988493538,
+      "truth_m": 0.42426197744960603,
+      "accumulated_rain_mm": 30.33934500624307,
+      "x_m": 21.680672268907564,
+      "road_m": 0.04614080926488241,
+      "water_surface_m": 0.42426197744960603,
+      "roll_rad": -0.10249052844356255,
+      "pitch_rad": -0.06476849763266342,
+      "slant_range_m": 5.118985717274013,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.37812116818472363,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.081446651578184,
+        "depth_m": 0.3724125391569336,
+        "raw_depth_m": 0.3724125391569336,
+        "sigma_m": 0.04931867228542684,
+        "interval_95_m": [
+          0.27574794147749704,
+          0.4690771368363702
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.42618414481520783
+    },
+    {
+      "minute": 44,
+      "rain_mm_h": 33.502296358121804,
+      "gauge_m": 0.4475837134574727,
+      "truth_m": 0.4266677432263875,
+      "accumulated_rain_mm": 30.897716612211767,
+      "x_m": 22.18487394957983,
+      "road_m": 0.040717463455970625,
+      "water_surface_m": 0.4266677432263875,
+      "roll_rad": -0.09172024232415095,
+      "pitch_rad": -0.05882792587772507,
+      "slant_range_m": 5.110325342741817,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3859502797704169,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.08004183245545,
+        "depth_m": 0.37924070408857946,
+        "raw_depth_m": 0.37924070408857946,
+        "sigma_m": 0.049255025812986485,
+        "interval_95_m": [
+          0.28270085349512597,
+          0.47578055468203295
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.44426808092283454
+    },
+    {
+      "minute": 45,
+      "rain_mm_h": 30.635800680244014,
+      "gauge_m": 0.38784626702349956,
+      "truth_m": 0.4281585725318675,
+      "accumulated_rain_mm": 31.408313290215833,
+      "x_m": 22.689075630252102,
+      "road_m": 0.0356330767601158,
+      "water_surface_m": 0.4281585725318675,
+      "roll_rad": -0.07951869249990014,
+      "pitch_rad": -0.05240150766049914,
+      "slant_range_m": 5.0753991595295895,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3925254957717517,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.052416468089328,
+        "depth_m": 0.411950455150556,
+        "raw_depth_m": 0.411950455150556,
+        "sigma_m": 0.049189607176333215,
+        "interval_95_m": [
+          0.3155388250849429,
+          0.5083620852161691
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.39323410685722765
+    },
+    {
+      "minute": 46,
+      "rain_mm_h": 31.033994406793028,
+      "gauge_m": 0.44042122440187426,
+      "truth_m": 0.42974306406615315,
+      "accumulated_rain_mm": 31.92554653032905,
+      "x_m": 23.19327731092437,
+      "road_m": 0.030887649177317993,
+      "water_surface_m": 0.42974306406615315,
+      "roll_rad": -0.0660762800749036,
+      "pitch_rad": -0.04554231730766698,
+      "slant_range_m": 5.086338848855117,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.39885541488883514,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.069976846368837,
+        "depth_m": 0.39913550445384516,
+        "raw_depth_m": 0.39913550445384516,
+        "sigma_m": 0.04913272886619867,
+        "interval_95_m": [
+          0.3028353558760958,
+          0.49543565303159454
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.43497619801540355
+    },
+    {
+      "minute": 47,
+      "rain_mm_h": 27.54737011322596,
+      "gauge_m": 0.4112149379999999,
+      "truth_m": 0.4302392651676964,
+      "accumulated_rain_mm": 32.384669365549485,
+      "x_m": 23.69747899159664,
+      "road_m": 0.026481180707577143,
+      "water_surface_m": 0.4302392651676964,
+      "roll_rad": -0.05160276939912212,
+      "pitch_rad": -0.03830700331256502,
+      "slant_range_m": 5.062515251961016,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.40375808446011924,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.052067362229828,
+        "depth_m": 0.4214514570625944,
+        "raw_depth_m": 0.4214514570625944,
+        "sigma_m": 0.0490806304729126,
+        "interval_95_m": [
+          0.3252534213356857,
+          0.5176494927895031
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.4193522848536884
+    },
+    {
+      "minute": 48,
+      "rain_mm_h": 17.405869477800277,
+      "gauge_m": 0.41133633741448344,
+      "truth_m": 0.4276453121207816,
+      "accumulated_rain_mm": 32.67476719017949,
+      "x_m": 24.201680672268907,
+      "road_m": 0.022413671350893307,
+      "water_surface_m": 0.4276453121207816,
+      "roll_rad": -0.03632401476586036,
+      "pitch_rad": -0.03075532048816025,
+      "slant_range_m": 5.087963489616345,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.4052316407698883,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.08220269317462,
+        "depth_m": 0.3953836354744871,
+        "raw_depth_m": 0.3953836354744871,
+        "sigma_m": 0.04904029280084354,
+        "interval_95_m": [
+          0.2992646615848338,
+          0.4915026093641405
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3741159285401414
+    },
+    {
+      "minute": 49,
+      "rain_mm_h": 18.19047439434018,
+      "gauge_m": 0.3846444665402375,
+      "truth_m": 0.42533724915364096,
+      "accumulated_rain_mm": 32.97794176341849,
+      "x_m": 24.705882352941178,
+      "road_m": 0.018685121107266427,
+      "water_surface_m": 0.42533724915364096,
+      "roll_rad": -0.020478436031058592,
+      "pitch_rad": -0.022949636465638266,
+      "slant_range_m": 5.081571372767136,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.4066521280463745,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.079168033534591,
+        "depth_m": 0.4021468453581423,
+        "raw_depth_m": 0.4021468453581423,
+        "sigma_m": 0.04901084704517696,
+        "interval_95_m": [
+          0.3060855851495955,
+          0.49820810556668915
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.37503838173136433
+    },
+    {
+      "minute": 50,
+      "rain_mm_h": 15.354832826974356,
+      "gauge_m": 0.4860371223390723,
+      "truth_m": 0.4222099808005582,
+      "accumulated_rain_mm": 33.23385564386807,
+      "x_m": 25.210084033613445,
+      "road_m": 0.015295529976696563,
+      "water_surface_m": 0.4222099808005582,
+      "roll_rad": -0.004313298151182386,
+      "pitch_rad": -0.01495441661431966,
+      "slant_range_m": 5.090837083980417,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.40691445082386163,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.090220500016899,
+        "depth_m": 0.394483970006404,
+        "raw_depth_m": 0.394483970006404,
+        "sigma_m": 0.04899521251748225,
+        "interval_95_m": [
+          0.2984533534721388,
+          0.4905145865406692
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.41083211501330524
+    },
+    {
+      "minute": 51,
+      "rain_mm_h": 15.288347090270552,
+      "gauge_m": 0.4049656401329878,
+      "truth_m": 0.41911980516170294,
+      "accumulated_rain_mm": 33.48866142870591,
+      "x_m": 25.714285714285715,
+      "road_m": 0.012244897959183668,
+      "water_surface_m": 0.41911980516170294,
+      "roll_rad": 0.011919147303723109,
+      "pitch_rad": -0.006835691636834636,
+      "slant_range_m": 5.084163201875849,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.4068749072025193,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.0836832884684835,
+        "depth_m": 0.40407181357233285,
+        "raw_depth_m": 0.40407181357233285,
+        "sigma_m": 0.04899400412258287,
+        "interval_95_m": [
+          0.30804356549207046,
+          0.5001000616525952
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3830905536759051
+    },
+    {
+      "minute": 52,
+      "rain_mm_h": 11.373687418693615,
+      "gauge_m": 0.43299394275299785,
+      "truth_m": 0.4148969386765891,
+      "accumulated_rain_mm": 33.678222885684136,
+      "x_m": 26.218487394957982,
+      "road_m": 0.009533225054727777,
+      "water_surface_m": 0.4148969386765891,
+      "roll_rad": 0.027965598451416017,
+      "pitch_rad": 0.001339487763435032,
+      "slant_range_m": 5.07490361416837,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.40536371362186135,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.072914715661694,
+        "depth_m": null,
+        "raw_depth_m": 0.41755205928357797,
+        "sigma_m": 0.049007191604852396,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3789464722808882
+    },
+    {
+      "minute": 53,
+      "rain_mm_h": 9.705475103391883,
+      "gauge_m": 0.41798092015159455,
+      "truth_m": 0.41024461975740273,
+      "accumulated_rain_mm": 33.839980804074,
+      "x_m": 26.722689075630253,
+      "road_m": 0.0071605112633288575,
+      "water_surface_m": 0.41024461975740273,
+      "roll_rad": 0.04357565578861111,
+      "pitch_rad": 0.009503604638867515,
+      "slant_range_m": 5.08179929656773,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.4030841084940739,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.076746033056862,
+        "depth_m": 0.41609345567980904,
+        "raw_depth_m": 0.41609345567980904,
+        "sigma_m": 0.04903404761792905,
+        "interval_95_m": [
+          0.3199867223486681,
+          0.51220018901095
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3676271567771399
+    },
+    {
+      "minute": 54,
+      "rain_mm_h": 6.846270242480288,
+      "gauge_m": 0.4044129439334698,
+      "truth_m": 0.4048088835330391,
+      "accumulated_rain_mm": 33.95408530811534,
+      "x_m": 27.22689075630252,
+      "road_m": 0.00512675658498694,
+      "water_surface_m": 0.4048088835330391,
+      "roll_rad": 0.058505729591480295,
+      "pitch_rad": 0.017589233404717984,
+      "slant_range_m": 5.1077430321802675,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.39968212694805216,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.098215079056939,
+        "depth_m": 0.39665816435807366,
+        "raw_depth_m": 0.39665816435807366,
+        "sigma_m": 0.04907372521397989,
+        "interval_95_m": [
+          0.30047366293867306,
+          0.49284266577747426
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3446801512983987
+    },
+    {
+      "minute": 55,
+      "rain_mm_h": 6.673916608815573,
+      "gauge_m": 0.37368781152702946,
+      "truth_m": 0.3994203677117067,
+      "accumulated_rain_mm": 34.0653172515956,
+      "x_m": 27.73109243697479,
+      "road_m": 0.0034319610197019955,
+      "water_surface_m": 0.3994203677117067,
+      "roll_rad": 0.07252284105182222,
+      "pitch_rad": 0.025529596691690363,
+      "slant_range_m": 5.11761456637452,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3959884066920047,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.102499002424374,
+        "depth_m": 0.3940690365559236,
+        "raw_depth_m": 0.3940690365559236,
+        "sigma_m": 0.04912310962945059,
+        "interval_95_m": [
+          0.29778774168220046,
+          0.4903503314296468
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3571844545317241
+    },
+    {
+      "minute": 56,
+      "rain_mm_h": 4.545766741979491,
+      "gauge_m": 0.4264427828613926,
+      "truth_m": 0.39348402169235686,
+      "accumulated_rain_mm": 34.14108003062859,
+      "x_m": 28.235294117647058,
+      "road_m": 0.0020761245674740503,
+      "water_surface_m": 0.39348402169235686,
+      "roll_rad": 0.08540825783344258,
+      "pitch_rad": 0.033259116845045095,
+      "slant_range_m": 5.113655936110776,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.39140789712488283,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.092198594611635,
+        "depth_m": 0.4057252808208907,
+        "raw_depth_m": 0.4057252808208907,
+        "sigma_m": 0.04917853376588908,
+        "interval_95_m": [
+          0.30933535463974815,
+          0.5021152070020333
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3611590387263182
+    },
+    {
+      "minute": 57,
+      "rain_mm_h": 5.442167774095587,
+      "gauge_m": 0.3879730729515661,
+      "truth_m": 0.3879287629116352,
+      "accumulated_rain_mm": 34.23178282686352,
+      "x_m": 28.73949579831933,
+      "road_m": 0.0010592472283030843,
+      "water_surface_m": 0.3879287629116352,
+      "roll_rad": 0.09696090731710337,
+      "pitch_rad": 0.040713957515537205,
+      "slant_range_m": 5.125723806004244,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3868695156833321,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.097420413008635,
+        "depth_m": 0.401520339763062,
+        "raw_depth_m": 0.401520339763062,
+        "sigma_m": 0.04923909933233297,
+        "interval_95_m": [
+          0.3050117050716894,
+          0.4980289744544346
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3544241782729158
+    },
+    {
+      "minute": 58,
+      "rain_mm_h": 3.1560768346963313,
+      "gauge_m": 0.3869046514849592,
+      "truth_m": 0.38178074498601056,
+      "accumulated_rain_mm": 34.284384107441795,
+      "x_m": 29.243697478991596,
+      "road_m": 0.0003813290021891118,
+      "water_surface_m": 0.38178074498601056,
+      "roll_rad": 0.10700051427149572,
+      "pitch_rad": 0.047832550869308266,
+      "slant_range_m": 5.152249690287566,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.38139941598382143,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.116924256553202,
+        "depth_m": 0.38269441444460905,
+        "raw_depth_m": 0.38269441444460905,
+        "sigma_m": 0.04930254392360018,
+        "interval_95_m": [
+          0.2860614283543527,
+          0.4793274005348654
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.34209595758900513
+    },
+    {
+      "minute": 59,
+      "rain_mm_h": 3.218172376611097,
+      "gauge_m": 0.3576052212296959,
+      "truth_m": 0.37576422388218084,
+      "accumulated_rain_mm": 34.338020313718644,
+      "x_m": 29.747899159663866,
+      "road_m": 4.236988913212313e-05,
+      "water_surface_m": 0.37576422388218084,
+      "roll_rad": 0.11537041398792978,
+      "pitch_rad": 0.05455610606262561,
+      "slant_range_m": 5.1683589502756275,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3757218539930487,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.1263623528531115,
+        "depth_m": 0.3735952772577564,
+        "raw_depth_m": 0.3735952772577564,
+        "sigma_m": 0.04936248492197708,
+        "interval_95_m": [
+          0.2768448068106813,
+          0.47034574770483145
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3246717320984101
+    },
+    {
+      "minute": 60,
+      "rain_mm_h": 2.7180844215553175,
+      "gauge_m": 0.40546796365276755,
+      "truth_m": 0.36970599502652374,
+      "accumulated_rain_mm": 34.38332172074457,
+      "x_m": 30.252100840336134,
+      "road_m": 4.236988913212313e-05,
+      "water_surface_m": 0.36970599502652374,
+      "roll_rad": 0.12193999698071606,
+      "pitch_rad": 0.06082909478209166,
+      "slant_range_m": 5.1990174808833105,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3696636251373916,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.150868033383611,
+        "depth_m": 0.3490895967272564,
+        "raw_depth_m": 0.3490895967272564,
+        "sigma_m": 0.04941974939408708,
+        "interval_95_m": [
+          0.25222688791484577,
+          0.4459523055396671
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.34396284237721625
+    },
+    {
+      "minute": 61,
+      "rain_mm_h": 2.078811058594634,
+      "gauge_m": 0.35350696729905007,
+      "truth_m": 0.36356453693746515,
+      "accumulated_rain_mm": 34.41796857172115,
+      "x_m": 30.756302521008404,
+      "road_m": 0.0003813290021891118,
+      "water_surface_m": 0.36356453693746515,
+      "roll_rad": 0.126606747104506,
+      "pitch_rad": 0.0665997098403571,
+      "slant_range_m": 5.193123903229523,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.36318320793527603,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.140137779743731,
+        "depth_m": 0.3594808912540798,
+        "raw_depth_m": 0.3594808912540798,
+        "sigma_m": 0.049461506724824376,
+        "interval_95_m": [
+          0.262536338073424,
+          0.45642544443473554
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3275394109950583
+    },
+    {
+      "minute": 62,
+      "rain_mm_h": 1.3474667283588335,
+      "gauge_m": 0.344477851701305,
+      "truth_m": 0.35731340252669597,
+      "accumulated_rain_mm": 34.440426350527126,
+      "x_m": 31.26050420168067,
+      "road_m": 0.0010592472283030843,
+      "water_surface_m": 0.35731340252669597,
+      "roll_rad": 0.1292978412844529,
+      "pitch_rad": 0.07182029303989995,
+      "slant_range_m": 5.187450084202243,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3562541552983929,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.130887287026663,
+        "depth_m": 0.3680534657450336,
+        "raw_depth_m": 0.3680534657450336,
+        "sigma_m": 0.04949199504016202,
+        "interval_95_m": [
+          0.271049155466316,
+          0.4650577760237512
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3107351461122772
+    },
+    {
+      "minute": 63,
+      "rain_mm_h": 1.3630091762116254,
+      "gauge_m": 0.3816574215652198,
+      "truth_m": 0.3511815108543126,
+      "accumulated_rain_mm": 34.46314317013065,
+      "x_m": 31.764705882352942,
+      "road_m": 0.0020761245674740503,
+      "water_surface_m": 0.3511815108543126,
+      "roll_rad": 0.1299712858959384,
+      "pitch_rad": 0.07644772877124173,
+      "slant_range_m": 5.1943494169683,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.34910538628683857,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.135495075812543,
+        "depth_m": 0.36242879961998337,
+        "raw_depth_m": 0.36242879961998337,
+        "sigma_m": 0.04951280893402981,
+        "interval_95_m": [
+          0.265383694109285,
+          0.45947390513068176
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3332700229548425
+    },
+    {
+      "minute": 64,
+      "rain_mm_h": 1.134231916166257,
+      "gauge_m": 0.30522660890024084,
+      "truth_m": 0.3450924512379935,
+      "accumulated_rain_mm": 34.482047035400086,
+      "x_m": 32.26890756302521,
+      "road_m": 0.0034319610197019955,
+      "water_surface_m": 0.3450924512379935,
+      "roll_rad": 0.12861657206103963,
+      "pitch_rad": 0.08044380009496141,
+      "slant_range_m": 5.186846495287724,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3416604902182915,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.127369637276175,
+        "depth_m": 0.3691984017041232,
+        "raw_depth_m": 0.3691984017041232,
+        "sigma_m": 0.049517057952582974,
+        "interval_95_m": [
+          0.27214496811706057,
+          0.46625183529118586
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2818002909983656
+    },
+    {
+      "minute": 65,
+      "rain_mm_h": 0.636616886352097,
+      "gauge_m": 0.34097211231571306,
+      "truth_m": 0.3389637640690906,
+      "accumulated_rain_mm": 34.492657316839285,
+      "x_m": 32.773109243697476,
+      "road_m": 0.005126756584986925,
+      "water_surface_m": 0.3389637640690906,
+      "roll_rad": 0.12525483963605447,
+      "pitch_rad": 0.0837755043667075,
+      "slant_range_m": 5.219838083637514,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3338370074841037,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.1607819969872,
+        "depth_m": null,
+        "raw_depth_m": 0.3340912464278127,
+        "sigma_m": 0.04951773733432587,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.3136643480836378
+    },
+    {
+      "minute": 66,
+      "rain_mm_h": 0.5103567224726111,
+      "gauge_m": 0.2792699532475646,
+      "truth_m": 0.3329089957102607,
+      "accumulated_rain_mm": 34.50116326221383,
+      "x_m": 33.27731092436975,
+      "road_m": 0.007160511263328872,
+      "water_surface_m": 0.3329089957102607,
+      "roll_rad": 0.11993854733111424,
+      "pitch_rad": 0.08641532579853294,
+      "slant_range_m": 5.196795643319512,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.32574848444693183,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.140209379382931,
+        "depth_m": 0.35263010935374023,
+        "raw_depth_m": 0.35263010935374023,
+        "sigma_m": 0.04949284513124145,
+        "interval_95_m": [
+          0.255624132896507,
+          0.4496360858109735
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.26483370520030414
+    },
+    {
+      "minute": 67,
+      "rain_mm_h": 0.5046605304407226,
+      "gauge_m": 0.2938915989364055,
+      "truth_m": 0.32696342020472074,
+      "accumulated_rain_mm": 34.50957427105451,
+      "x_m": 33.78151260504202,
+      "road_m": 0.009533225054727777,
+      "water_surface_m": 0.32696342020472074,
+      "roll_rad": 0.11275065410955758,
+      "pitch_rad": 0.08834146270553064,
+      "slant_range_m": 5.232995046759355,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.317430195149993,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.179490638922882,
+        "depth_m": 0.31097613602239016,
+        "raw_depth_m": 0.31097613602239016,
+        "sigma_m": 0.04947023168676395,
+        "interval_95_m": [
+          0.21401448191633282,
+          0.4079377901284475
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2716712898300961
+    },
+    {
+      "minute": 68,
+      "rain_mm_h": 0.33346933862035383,
+      "gauge_m": 0.35312129819280025,
+      "truth_m": 0.32107475851996453,
+      "accumulated_rain_mm": 34.51513209336485,
+      "x_m": 34.285714285714285,
+      "road_m": 0.012244897959183668,
+      "water_surface_m": 0.32107475851996453,
+      "roll_rad": 0.10380332464105374,
+      "pitch_rad": 0.08953800756099144,
+      "slant_range_m": 5.220872378175254,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.3088298605607809,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.171968378598979,
+        "depth_m": 0.31578672344183695,
+        "raw_depth_m": 0.31578672344183695,
+        "sigma_m": 0.04942805517378867,
+        "interval_95_m": [
+          0.21890773530121116,
+          0.41266571158246274
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.31507015594205656
+    },
+    {
+      "minute": 69,
+      "rain_mm_h": 0.29432025502580267,
+      "gauge_m": 0.3340806355087343,
+      "truth_m": 0.3152820833744088,
+      "accumulated_rain_mm": 34.52003743094861,
+      "x_m": 34.78991596638655,
+      "road_m": 0.015295529976696542,
+      "water_surface_m": 0.3152820833744088,
+      "roll_rad": 0.09323617900944693,
+      "pitch_rad": 0.08999507837304971,
+      "slant_range_m": 5.235055172683878,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.29998655339771224,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.191224188061578,
+        "depth_m": 0.29348028196172554,
+        "raw_depth_m": 0.29348028196172554,
+        "sigma_m": 0.04938458768131532,
+        "interval_95_m": [
+          0.19668649010634753,
+          0.39027407381710355
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2844203672663936
+    },
+    {
+      "minute": 70,
+      "rain_mm_h": 0.20869632762252474,
+      "gauge_m": 0.3279633688481271,
+      "truth_m": 0.3095695168888465,
+      "accumulated_rain_mm": 34.52351570307565,
+      "x_m": 35.294117647058826,
+      "road_m": 0.018685121107266455,
+      "water_surface_m": 0.3095695168888465,
+      "roll_rad": 0.08121411398804503,
+      "pitch_rad": 0.08970890029780708,
+      "slant_range_m": 5.217609230543591,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.29088439578158004,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.179500096794576,
+        "depth_m": 0.30181478209815765,
+        "raw_depth_m": 0.30181478209815765,
+        "sigma_m": 0.04933210786381012,
+        "interval_95_m": [
+          0.20512385068508981,
+          0.3985057135112255
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2903713938335034
+    },
+    {
+      "minute": 71,
+      "rain_mm_h": 0.13423609310094667,
+      "gauge_m": 0.2930634071681696,
+      "truth_m": 0.30393898308545175,
+      "accumulated_rain_mm": 34.525752971294004,
+      "x_m": 35.79831932773109,
+      "road_m": 0.022413671350893307,
+      "water_surface_m": 0.30393898308545175,
+      "roll_rad": 0.06792472988062324,
+      "pitch_rad": 0.08868183681490976,
+      "slant_range_m": 5.23018371627486,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.28152531173455847,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.197617488053257,
+        "depth_m": 0.2799688405958501,
+        "raw_depth_m": 0.2799688405958501,
+        "sigma_m": 0.049283818888985406,
+        "interval_95_m": [
+          0.18337255557343868,
+          0.3765651256182615
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.25418536700981553
+    },
+    {
+      "minute": 72,
+      "rain_mm_h": 0.11514767429740615,
+      "gauge_m": 0.2819903995432592,
+      "truth_m": 0.2984058014966468,
+      "accumulated_rain_mm": 34.52767209919896,
+      "x_m": 36.30252100840336,
+      "road_m": 0.026481180707577143,
+      "water_surface_m": 0.2984058014966468,
+      "roll_rad": 0.05357540308142836,
+      "pitch_rad": 0.0869223702081076,
+      "slant_range_m": 5.251797397533007,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.27192462078906965,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.224462984545831,
+        "depth_m": 0.24905583474659226,
+        "raw_depth_m": 0.24905583474659226,
+        "sigma_m": 0.04923843674280051,
+        "interval_95_m": [
+          0.15254849873070325,
+          0.3455631707624813
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2518220960248652
+    },
+    {
+      "minute": 73,
+      "rain_mm_h": 0.06041472943558326,
+      "gauge_m": 0.2908803717513806,
+      "truth_m": 0.29295735955557384,
+      "accumulated_rain_mm": 34.52867901135622,
+      "x_m": 36.80672268907563,
+      "road_m": 0.030887649177317962,
+      "water_surface_m": 0.29295735955557384,
+      "roll_rad": 0.038390050035905204,
+      "pitch_rad": 0.08444503151200153,
+      "slant_range_m": 5.233210361817738,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.2620697103782559,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.2107204029096845,
+        "depth_m": 0.2583919479129975,
+        "raw_depth_m": 0.2583919479129975,
+        "sigma_m": 0.04919379035033139,
+        "interval_95_m": [
+          0.161972118826348,
+          0.35481177699964705
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.27246192703922806
+    },
+    {
+      "minute": 74,
+      "rain_mm_h": 0.045873218443972484,
+      "gauge_m": 0.29378745677144696,
+      "truth_m": 0.2876043152894882,
+      "accumulated_rain_mm": 34.52944356499695,
+      "x_m": 37.3109243697479,
+      "road_m": 0.03563307676011583,
+      "water_surface_m": 0.2876043152894882,
+      "roll_rad": 0.022605633099456363,
+      "pitch_rad": 0.08127028050353304,
+      "slant_range_m": 5.229668072721729,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.25197123852937237,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.211075216221287,
+        "depth_m": 0.25329170701859693,
+        "raw_depth_m": 0.25329170701859693,
+        "sigma_m": 0.049158559366505365,
+        "interval_95_m": [
+          0.15694093066024642,
+          0.3496424833769475
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2692468091382099
+    },
+    {
+      "minute": 75,
+      "rain_mm_h": 0.03684937343926588,
+      "gauge_m": 0.2770838611562579,
+      "truth_m": 0.2823465973205045,
+      "accumulated_rain_mm": 34.53005772122094,
+      "x_m": 37.81512605042017,
+      "road_m": 0.040717463455970625,
+      "water_surface_m": 0.2823465973205045,
+      "roll_rad": 0.00646846281914022,
+      "pitch_rad": 0.07742433672933914,
+      "slant_range_m": 5.254819437457692,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.24162913386453386,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.238967619070818,
+        "depth_m": 0.22031491747321105,
+        "raw_depth_m": 0.22031491747321105,
+        "sigma_m": 0.049134755618367436,
+        "interval_95_m": [
+          0.12401079646121088,
+          0.3166190384852112
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.25814366578659653
+    },
+    {
+      "minute": 76,
+      "rain_mm_h": 0.026440683414078923,
+      "gauge_m": 0.27788169962061515,
+      "truth_m": 0.2771820385439132,
+      "accumulated_rain_mm": 34.530498399277846,
+      "x_m": 38.319327731092436,
+      "road_m": 0.04614080926488241,
+      "water_surface_m": 0.2771820385439132,
+      "roll_rad": -0.00976964566003521,
+      "pitch_rad": 0.07293896296447895,
+      "slant_range_m": 5.229650331562365,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.2310412292790308,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.215496477581321,
+        "depth_m": 0.23836271315379653,
+        "raw_depth_m": 0.23836271315379653,
+        "sigma_m": 0.04911843118206748,
+        "interval_95_m": [
+          0.14209058803694427,
+          0.33463483827064877
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.24946497441613916
+    },
+    {
+      "minute": 77,
+      "rain_mm_h": 0.020035589496631232,
+      "gauge_m": 0.2664381763192583,
+      "truth_m": 0.27211014860509297,
+      "accumulated_rain_mm": 34.53083232576946,
+      "x_m": 38.8235294117647,
+      "road_m": 0.051903114186851174,
+      "water_surface_m": 0.27211014860509297,
+      "roll_rad": -0.02585530208622837,
+      "pitch_rad": 0.06785120289089741,
+      "slant_range_m": 5.237162899706936,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.2202070344182418,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.223365748433213,
+        "depth_m": 0.2247311373799354,
+        "raw_depth_m": 0.2247311373799354,
+        "sigma_m": 0.049115367482613526,
+        "interval_95_m": [
+          0.12846501711401287,
+          0.3209972576458579
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.24006125057737945
+    },
+    {
+      "minute": 78,
+      "rain_mm_h": 0.013101065167457775,
+      "gauge_m": 0.25978072229320576,
+      "truth_m": 0.26712906896536376,
+      "accumulated_rain_mm": 34.531050676855585,
+      "x_m": 39.32773109243698,
+      "road_m": 0.058004378221877005,
+      "water_surface_m": 0.26712906896536376,
+      "roll_rad": -0.041537495170895576,
+      "pitch_rad": 0.06220307516207987,
+      "slant_range_m": 5.23332742925385,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.20912469074348675,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.218700922157361,
+        "depth_m": null,
+        "raw_depth_m": 0.22329469962076173,
+        "sigma_m": 0.049122669309177226,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2386128700190477
+    },
+    {
+      "minute": 79,
+      "rain_mm_h": 0.008358237270532736,
+      "gauge_m": 0.2831957966047544,
+      "truth_m": 0.26223780183317347,
+      "accumulated_rain_mm": 34.5311899808101,
+      "x_m": 39.831932773109244,
+      "road_m": 0.06444460136995975,
+      "water_surface_m": 0.26223780183317347,
+      "roll_rad": -0.056571509535995844,
+      "pitch_rad": 0.056041226380548,
+      "slant_range_m": 5.271265405155002,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.19779320046321372,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.2545706313396625,
+        "depth_m": 0.18098476729037774,
+        "raw_depth_m": 0.18098476729037774,
+        "sigma_m": 0.049142802990433804,
+        "interval_95_m": [
+          0.08466487342912749,
+          0.277304661151628
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.25280726077865545
+    },
+    {
+      "minute": 80,
+      "rain_mm_h": 0.008074058212297747,
+      "gauge_m": 0.2167355496214588,
+      "truth_m": 0.2574360564136138,
+      "accumulated_rain_mm": 34.53132454844697,
+      "x_m": 40.33613445378151,
+      "road_m": 0.07122378363109946,
+      "water_surface_m": 0.2574360564136138,
+      "roll_rad": -0.07072274441561807,
+      "pitch_rad": 0.04941654585417716,
+      "slant_range_m": 5.265274653535734,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.18621227278251432,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.245700950295534,
+        "depth_m": 0.18307526607336647,
+        "raw_depth_m": 0.18307526607336647,
+        "sigma_m": 0.0491688073415697,
+        "interval_95_m": [
+          0.08670440368388986,
+          0.27944612846284306
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2104130310043854
+    },
+    {
+      "minute": 81,
+      "rain_mm_h": 0.004068614274310809,
+      "gauge_m": 0.23306095098566418,
+      "truth_m": 0.25272106212017653,
+      "accumulated_rain_mm": 34.531392358684876,
+      "x_m": 40.84033613445378,
+      "road_m": 0.07834192500529617,
+      "water_surface_m": 0.25272106212017653,
+      "roll_rad": -0.08377037452246879,
+      "pitch_rad": 0.04238374531297481,
+      "slant_range_m": 5.2965562948034695,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.17437913711488034,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.273243005924599,
+        "depth_m": 0.14841506907010443,
+        "raw_depth_m": 0.14841506907010443,
+        "sigma_m": 0.04920460234998168,
+        "interval_95_m": [
+          0.05197404846414033,
+          0.24485608967606853
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21997124521730954
+    },
+    {
+      "minute": 82,
+      "rain_mm_h": 0.003259513190680009,
+      "gauge_m": 0.2273924722066162,
+      "truth_m": 0.2480922007444838,
+      "accumulated_rain_mm": 34.53144668390472,
+      "x_m": 41.34453781512605,
+      "road_m": 0.08579902549255,
+      "water_surface_m": 0.2480922007444838,
+      "roll_rad": -0.0955107959526234,
+      "pitch_rad": 0.035000907057344,
+      "slant_range_m": 5.273139352100545,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.1622931752519338,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.245891102972093,
+        "depth_m": 0.16830987153535662,
+        "raw_depth_m": 0.16830987153535662,
+        "sigma_m": 0.04923929665989152,
+        "interval_95_m": [
+          0.07180085008196925,
+          0.264818892988744
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21373502140881812
+    },
+    {
+      "minute": 83,
+      "rain_mm_h": 0.0022851395597792952,
+      "gauge_m": 0.252721252511222,
+      "truth_m": 0.24354784411983912,
+      "accumulated_rain_mm": 34.531484769564045,
+      "x_m": 41.84873949579832,
+      "road_m": 0.09359508509286069,
+      "water_surface_m": 0.24354784411983912,
+      "roll_rad": -0.10576080335635,
+      "pitch_rad": 0.02732900426957217,
+      "slant_range_m": 5.302633730519032,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.14995275902697844,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.271036448266755,
+        "depth_m": 0.13536846664038443,
+        "raw_depth_m": 0.13536846664038443,
+        "sigma_m": 0.04928116981351327,
+        "interval_95_m": [
+          0.03877737380589842,
+          0.23195955947487046
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2264874980689866
+    },
+    {
+      "minute": 84,
+      "rain_mm_h": 0.0015898953754241497,
+      "gauge_m": 0.2619524095649452,
+      "truth_m": 0.2390865289202209,
+      "accumulated_rain_mm": 34.5315112678203,
+      "x_m": 42.35294117647059,
+      "road_m": 0.10173010380622836,
+      "water_surface_m": 0.2390865289202209,
+      "roll_rad": -0.11436044879631711,
+      "pitch_rad": 0.019431397450184348,
+      "slant_range_m": 5.288476652272047,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.13735642511399254,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.252940294503966,
+        "depth_m": 0.1453296016898058,
+        "raw_depth_m": 0.1453296016898058,
+        "sigma_m": 0.04931621439334732,
+        "interval_95_m": [
+          0.04866982147884506,
+          0.24198938190076652
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.2379302416062429
+    },
+    {
+      "minute": 85,
+      "rain_mm_h": 0.0008731159254778415,
+      "gauge_m": 0.24538046421280582,
+      "truth_m": 0.2347067272835623,
+      "accumulated_rain_mm": 34.53152581975239,
+      "x_m": 42.857142857142854,
+      "road_m": 0.11020408163265301,
+      "water_surface_m": 0.2347067272835623,
+      "roll_rad": -0.12117553768165995,
+      "pitch_rad": 0.01137331113797711,
+      "slant_range_m": 5.290399909325354,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.12450264565090928,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.251266940465352,
+        "depth_m": 0.13852897790199498,
+        "raw_depth_m": 0.13852897790199498,
+        "sigma_m": 0.0493492825322724,
+        "interval_95_m": [
+          0.041804384138741074,
+          0.23525357166524888
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21097924459889256
+    },
+    {
+      "minute": 86,
+      "rain_mm_h": 0.0007727226364490741,
+      "gauge_m": 0.26051244252931655,
+      "truth_m": 0.2304071331435407,
+      "accumulated_rain_mm": 34.531538698462995,
+      "x_m": 43.36134453781513,
+      "road_m": 0.11901701857213477,
+      "water_surface_m": 0.2304071331435407,
+      "roll_rad": -0.1260997228296882,
+      "pitch_rad": 0.003221295235385069,
+      "slant_range_m": 5.355278378051746,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.11139011457140592,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.312729686999319,
+        "depth_m": 0.06825329442854643,
+        "raw_depth_m": 0.06825329442854643,
+        "sigma_m": 0.0493868363796878,
+        "interval_95_m": [
+          0,
+          0.1650514937327345
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.22393509059561192
+    },
+    {
+      "minute": 87,
+      "rain_mm_h": 0.0004957852987590778,
+      "gauge_m": 0.23498117595857265,
+      "truth_m": 0.22618622346284972,
+      "accumulated_rain_mm": 34.53154696155131,
+      "x_m": 43.865546218487395,
+      "road_m": 0.1281689146246734,
+      "water_surface_m": 0.22618622346284972,
+      "roll_rad": -0.12905616397810327,
+      "pitch_rad": -0.004957324612029853,
+      "slant_range_m": 5.310363941854394,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.09801730883817633,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.26613721349781,
+        "depth_m": 0.10569387187751644,
+        "raw_depth_m": 0.10569387187751644,
+        "sigma_m": 0.04939777623887099,
+        "interval_95_m": [
+          0.008874230449329307,
+          0.20251351330570358
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20783482690123029
+    },
+    {
+      "minute": 88,
+      "rain_mm_h": 0.0002806396951862255,
+      "gauge_m": 0.22252069981051897,
+      "truth_m": 0.22204257551443057,
+      "accumulated_rain_mm": 34.53155163887956,
+      "x_m": 44.36974789915966,
+      "road_m": 0.13765976979026903,
+      "water_surface_m": 0.22204257551443057,
+      "roll_rad": -0.12999872685159145,
+      "pitch_rad": -0.013095003042775218,
+      "slant_range_m": 5.319430359661588,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.08438280572416154,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.2740930881510595,
+        "depth_m": 0.08824714205867148,
+        "raw_depth_m": 0.08824714205867148,
+        "sigma_m": 0.049408811792500895,
+        "interval_95_m": [
+          0,
+          0.18508841317197322
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20736231573246083
+    },
+    {
+      "minute": 89,
+      "rain_mm_h": 0.0002018982015231429,
+      "gauge_m": 0.20182225711513366,
+      "truth_m": 0.2179748153033919,
+      "accumulated_rain_mm": 34.53155500384959,
+      "x_m": 44.87394957983193,
+      "road_m": 0.14748958406892163,
+      "water_surface_m": 0.2179748153033919,
+      "roll_rad": -0.12891270307176028,
+      "pitch_rad": -0.02112453282120881,
+      "slant_range_m": 5.312034014162821,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.07048523123447029,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.266780770229489,
+        "depth_m": 0.0857296457015895,
+        "raw_depth_m": 0.0857296457015895,
+        "sigma_m": 0.04940714105003171,
+        "interval_95_m": [
+          0,
+          0.18256764215965166
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1979433782207135
+    },
+    {
+      "minute": 90,
+      "rain_mm_h": 0.00013843577112731246,
+      "gauge_m": 0.23513035382300498,
+      "truth_m": 0.21398155720774348,
+      "accumulated_rain_mm": 34.531557311112444,
+      "x_m": 45.378151260504204,
+      "road_m": 0.15765835746063134,
+      "water_surface_m": 0.21398155720774348,
+      "roll_rad": -0.12581503967646399,
+      "pitch_rad": -0.028979599886814426,
+      "slant_range_m": 5.340923478600517,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.05632319974711214,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.296482522001248,
+        "depth_m": 0.04585912053812097,
+        "raw_depth_m": 0.04585912053812097,
+        "sigma_m": 0.04940249956552076,
+        "interval_95_m": [
+          0,
+          0.14268801968654166
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21265190818206153
+    },
+    {
+      "minute": 91,
+      "rain_mm_h": 8.59151659600163e-05,
+      "gauge_m": 0.23234008198388162,
+      "truth_m": 0.2100614396724143,
+      "accumulated_rain_mm": 34.53155874303187,
+      "x_m": 45.88235294117647,
+      "road_m": 0.16816608996539792,
+      "water_surface_m": 0.2100614396724143,
+      "roll_rad": -0.12075407466694582,
+      "pitch_rad": -0.036595331026948626,
+      "slant_range_m": 5.328683496614002,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.04189534970701639,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.286338701537048,
+        "depth_m": null,
+        "raw_depth_m": 0.04549520849755431,
+        "sigma_m": 0.04938179761695114,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.21503290725637175
+    },
+    {
+      "minute": 92,
+      "rain_mm_h": 4.941474522481069e-05,
+      "gauge_m": 0.22044912840428416,
+      "truth_m": 0.2062131276288754,
+      "accumulated_rain_mm": 34.53155956661096,
+      "x_m": 46.38655462184874,
+      "road_m": 0.17901278158322148,
+      "water_surface_m": 0.2062131276288754,
+      "roll_rad": -0.11380878270949571,
+      "pitch_rad": -0.043908829649950576,
+      "slant_range_m": 5.31958749937762,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.02720034604565391,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.280079801861304,
+        "depth_m": 0.04090741655547431,
+        "raw_depth_m": 0.04090741655547431,
+        "sigma_m": 0.0493547072115398,
+        "interval_95_m": [
+          0,
+          0.1376426426900923
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.20151667558499992
+    },
+    {
+      "minute": 93,
+      "rain_mm_h": 3.528788922012829e-05,
+      "gauge_m": 0.19845291109519686,
+      "truth_m": 0.20243531239726711,
+      "accumulated_rain_mm": 34.531560154742444,
+      "x_m": 46.890756302521005,
+      "road_m": 0.19019843231410202,
+      "water_surface_m": 0.20243531239726711,
+      "roll_rad": -0.10508754276219667,
+      "pitch_rad": -0.05085969523379102,
+      "slant_range_m": 5.326937770876437,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0.012236880083165091,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.290700966132849,
+        "depth_m": 0.019100601553049407,
+        "raw_depth_m": 0.019100601553049407,
+        "sigma_m": 0.049325152825668364,
+        "interval_95_m": [
+          0,
+          0.1157779010913594
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.18565248322126843
+    },
+    {
+      "minute": 94,
+      "rain_mm_h": 1.8599183704945677e-05,
+      "gauge_m": 0.1756679959399542,
+      "truth_m": 0.19872670169718873,
+      "accumulated_rain_mm": 34.53156046472884,
+      "x_m": 47.39495798319328,
+      "road_m": 0.2017230421580397,
+      "water_surface_m": 0.2017230421580397,
+      "roll_rad": -0.0947264468575321,
+      "pitch_rad": -0.05739052216024739,
+      "slant_range_m": 5.313724017787416,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.281192341876482,
+        "depth_m": 0.01708461596547861,
+        "raw_depth_m": 0.01708461596547861,
+        "sigma_m": 0.04928997021215707,
+        "interval_95_m": [
+          0,
+          0.11369295758130647
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.16717137309212923
+    },
+    {
+      "minute": 95,
+      "rain_mm_h": 1.0073233195372946e-05,
+      "gauge_m": 0.2067704468143817,
+      "truth_m": 0.1950860301810406,
+      "accumulated_rain_mm": 34.53156063261606,
+      "x_m": 47.89915966386555,
+      "road_m": 0.21358661111503424,
+      "water_surface_m": 0.21358661111503424,
+      "roll_rad": -0.08288717643173606,
+      "pitch_rad": -0.06344737381485174,
+      "slant_range_m": 5.290560140551805,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.261788078227235,
+        "depth_m": 0.02462531065773116,
+        "raw_depth_m": 0.02462531065773116,
+        "sigma_m": 0.0492538859361305,
+        "interval_95_m": [
+          0,
+          0.12116292709254693
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.19372772924503123
+    },
+    {
+      "minute": 96,
+      "rain_mm_h": 6.9047222525543585e-06,
+      "gauge_m": 0.18061827122690685,
+      "truth_m": 0.1915120548301242,
+      "accumulated_rain_mm": 34.53156074769477,
+      "x_m": 48.403361344537814,
+      "road_m": 0.22578913918508575,
+      "water_surface_m": 0.22578913918508575,
+      "roll_rad": -0.06975447934005655,
+      "pitch_rad": -0.06898022803712334,
+      "slant_range_m": 5.298855130621519,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.27339801751731,
+        "depth_m": 0.0008128432976046152,
+        "raw_depth_m": 0.0008128432976046152,
+        "sigma_m": 0.049224129500630855,
+        "interval_95_m": [
+          0,
+          0.09729213711884109
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.17802657648629783
+    },
+    {
+      "minute": 97,
+      "rain_mm_h": 4.591394306781858e-06,
+      "gauge_m": 0.20423739107606562,
+      "truth_m": 0.18800355403003322,
+      "accumulated_rain_mm": 34.531560824218005,
+      "x_m": 48.90756302521008,
+      "road_m": 0.23833062636819424,
+      "water_surface_m": 0.23833062636819424,
+      "roll_rad": -0.05553328692826503,
+      "pitch_rad": -0.07394339024221792,
+      "slant_range_m": 5.267480316210006,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.2449885368050495,
+        "depth_m": 0.01668083682675625,
+        "raw_depth_m": 0.01668083682675625,
+        "sigma_m": 0.04919541755660438,
+        "interval_95_m": [
+          0,
+          0.11310385523770083
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1884191398028438
+    },
+    {
+      "minute": 98,
+      "rain_mm_h": 3.113550652583784e-06,
+      "gauge_m": 0.16032834410093694,
+      "truth_m": 0.18455932854036117,
+      "accumulated_rain_mm": 34.53156087611052,
+      "x_m": 49.411764705882355,
+      "road_m": 0.2512110726643599,
+      "water_surface_m": 0.2512110726643599,
+      "roll_rad": -0.04044551614754655,
+      "pitch_rad": -0.07829587080211214,
+      "slant_range_m": 5.2530086856986,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.232633004749797,
+        "depth_m": 0.016155922585843252,
+        "raw_depth_m": 0.016155922585843252,
+        "sigma_m": 0.04917560919566679,
+        "interval_95_m": [
+          0,
+          0.11254011660935016
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1575066386841699
+    },
+    {
+      "minute": 99,
+      "rain_mm_h": 1.5751287493711192e-06,
+      "gauge_m": 0.19535724628208728,
+      "truth_m": 0.18117820081856378,
+      "accumulated_rain_mm": 34.53156090236266,
+      "x_m": 49.91596638655462,
+      "road_m": 0.26443047807358233,
+      "water_surface_m": 0.26443047807358233,
+      "roll_rad": -0.024726606614698676,
+      "pitch_rad": -0.08200172356962092,
+      "slant_range_m": 5.231465488328596,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.212292598740446,
+        "depth_m": 0.02327692318597141,
+        "raw_depth_m": 0.02327692318597141,
+        "sigma_m": 0.04916386799656408,
+        "interval_95_m": [
+          0,
+          0.119638104459237
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.17156585931704701
+    },
+    {
+      "minute": 100,
+      "rain_mm_h": 1.00914184558855e-06,
+      "gauge_m": 0.21036365869932783,
+      "truth_m": 0.17785901520852168,
+      "accumulated_rain_mm": 34.53156091918169,
+      "x_m": 50.42016806722689,
+      "road_m": 0.27798884259586176,
+      "water_surface_m": 0.27798884259586176,
+      "roll_rad": -0.00862184665565609,
+      "pitch_rad": -0.08503034274945244,
+      "slant_range_m": 5.246618992897405,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.227469171501779,
+        "depth_m": 0,
+        "raw_depth_m": -0.005458014097640906,
+        "sigma_m": 0.04916443426122368,
+        "interval_95_m": [
+          0,
+          0.09090427705435751
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.18833001374310576
+    },
+    {
+      "minute": 101,
+      "rain_mm_h": 6.776518909056836e-07,
+      "gauge_m": 0.20516514779248093,
+      "truth_m": 0.17460063700155262,
+      "accumulated_rain_mm": 34.53156093047589,
+      "x_m": 50.924369747899156,
+      "road_m": 0.29188616623119823,
+      "water_surface_m": 0.29188616623119823,
+      "roll_rad": 0.007617454336796744,
+      "pitch_rad": -0.08735671566451184,
+      "slant_range_m": 5.221606957900308,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.2015451571871045,
+        "depth_m": 0.0065686765816972414,
+        "raw_depth_m": 0.0065686765816972414,
+        "sigma_m": 0.049171554390566294,
+        "interval_95_m": [
+          0,
+          0.10294492318720717
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.17848051397310255
+    },
+    {
+      "minute": 102,
+      "rain_mm_h": 4.036964784193803e-07,
+      "gauge_m": 0.18186407647313646,
+      "truth_m": 0.17140195222308294,
+      "accumulated_rain_mm": 34.53156093720416,
+      "x_m": 51.42857142857143,
+      "road_m": 0.30612244897959184,
+      "water_surface_m": 0.30612244897959184,
+      "roll_rad": 0.02373788750204742,
+      "pitch_rad": -0.08896162932991353,
+      "slant_range_m": 5.207404964044214,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.185351119702792,
+        "depth_m": 0.008526431317615768,
+        "raw_depth_m": 0.008526431317615768,
+        "sigma_m": 0.049188688371187776,
+        "interval_95_m": [
+          0,
+          0.1049362605251438
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.17135286601243108
+    },
+    {
+      "minute": 103,
+      "rain_mm_h": 2.486700411706129e-07,
+      "gauge_m": 0.15344907907017072,
+      "truth_m": 0.1682618673252131,
+      "accumulated_rain_mm": 34.531560941348665,
+      "x_m": 51.9327731092437,
+      "road_m": 0.32069769084104227,
+      "water_surface_m": 0.32069769084104227,
+      "roll_rad": 0.03948789887217065,
+      "pitch_rad": -0.08983182912865409,
+      "slant_range_m": 5.198843174426826,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.173844180198732,
+        "depth_m": 0.005458128960225461,
+        "raw_depth_m": 0.005458128960225461,
+        "sigma_m": 0.049214420331150775,
+        "interval_95_m": [
+          0,
+          0.10191839280928097
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.14354824820397227
+    },
+    {
+      "minute": 104,
+      "rain_mm_h": 1.412959413601044e-07,
+      "gauge_m": 0.1495758792664514,
+      "truth_m": 0.1651793087721944,
+      "accumulated_rain_mm": 34.531560943703596,
+      "x_m": 52.436974789915965,
+      "road_m": 0.3356118918155496,
+      "water_surface_m": 0.3356118918155496,
+      "roll_rad": 0.05462171478746332,
+      "pitch_rad": -0.08996012827848017,
+      "slant_range_m": 5.1806309347491,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 5.151986975347516,
+        "depth_m": null,
+        "raw_depth_m": 0.01240113283693478,
+        "sigma_m": 0.04924551892218143,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.15053898306471936
+    },
+    {
+      "minute": 105,
+      "rain_mm_h": 7.907039725347973e-08,
+      "gauge_m": 0.1418591597085928,
+      "truth_m": 0.16215322269469995,
+      "accumulated_rain_mm": 34.53156094502143,
+      "x_m": 52.94117647058823,
+      "road_m": 0.350865051903114,
+      "water_surface_m": 0.350865051903114,
+      "roll_rad": 0.06890317711220306,
+      "pitch_rad": -0.08934546718588872,
+      "slant_range_m": 5.197489763628439,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.164474933683458,
+        "depth_m": 0,
+        "raw_depth_m": -0.015339985586571903,
+        "sigma_m": 0.04928531613653477,
+        "interval_95_m": [
+          0,
+          0.08125923404103624
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1500669294277565
+    },
+    {
+      "minute": 106,
+      "rain_mm_h": 4.651019019483801e-08,
+      "gauge_m": 0.1286200835885948,
+      "truth_m": 0.1591825745255925,
+      "accumulated_rain_mm": 34.5315609457966,
+      "x_m": 53.445378151260506,
+      "road_m": 0.3664571711037357,
+      "water_surface_m": 0.3664571711037357,
+      "roll_rad": 0.08210942840337103,
+      "pitch_rad": -0.08799292219706879,
+      "slant_range_m": 5.162117871479793,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.124821926386676,
+        "depth_m": 0.008720902509588624,
+        "raw_depth_m": 0.008720902509588624,
+        "sigma_m": 0.04932006301879544,
+        "interval_95_m": [
+          0,
+          0.10538822602642768
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.14112327554458212
+    },
+    {
+      "minute": 107,
+      "rain_mm_h": 2.1895732358645913e-08,
+      "gauge_m": 0.10034176994444627,
+      "truth_m": 0.15626634864441347,
+      "accumulated_rain_mm": 34.53156094616153,
+      "x_m": 53.94957983193277,
+      "road_m": 0.38238824941741406,
+      "water_surface_m": 0.38238824941741406,
+      "roll_rad": 0.09403438952651363,
+      "pitch_rad": -0.08591366367351287,
+      "slant_range_m": 5.151919845677957,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.110240861939163,
+        "depth_m": 0.0073708886434231125,
+        "raw_depth_m": 0.0073708886434231125,
+        "sigma_m": 0.04935740601884794,
+        "interval_95_m": [
+          0,
+          0.10411140444036507
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1188137812355438
+    },
+    {
+      "minute": 108,
+      "rain_mm_h": 1.1368577218513545e-08,
+      "gauge_m": 0.12326040886201838,
+      "truth_m": 0.15340354803874398,
+      "accumulated_rain_mm": 34.531560946351,
+      "x_m": 54.45378151260504,
+      "road_m": 0.3986582868441494,
+      "water_surface_m": 0.3986582868441494,
+      "roll_rad": 0.10449197545171073,
+      "pitch_rad": -0.08312486373854118,
+      "slant_range_m": 5.143940618436739,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.098219368746074,
+        "depth_m": 0.003122344409776656,
+        "raw_depth_m": 0.003122344409776656,
+        "sigma_m": 0.04939181001273012,
+        "interval_95_m": [
+          0,
+          0.09993029203472768
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.12446193914773168
+    },
+    {
+      "minute": 109,
+      "rain_mm_h": 7.520664327781526e-09,
+      "gauge_m": 0.1382177348625956,
+      "truth_m": 0.15059319395918921,
+      "accumulated_rain_mm": 34.53156094647635,
+      "x_m": 54.95798319327731,
+      "road_m": 0.4152672833839417,
+      "water_surface_m": 0.4152672833839417,
+      "roll_rad": 0.11331899904822976,
+      "pitch_rad": -0.07964955445664051,
+      "slant_range_m": 5.145317464516111,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.0961089581329,
+        "depth_m": 0,
+        "raw_depth_m": -0.011376241516841912,
+        "sigma_m": 0.049422341319177894,
+        "interval_95_m": [
+          0,
+          0.08549154746874676
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.13200447099895155
+    },
+    {
+      "minute": 110,
+      "rain_mm_h": 3.487680238356083e-09,
+      "gauge_m": 0.14108459347162625,
+      "truth_m": 0.14783432558496468,
+      "accumulated_rain_mm": 34.531560946534476,
+      "x_m": 55.46218487394958,
+      "road_m": 0.43221523903679127,
+      "water_surface_m": 0.43221523903679127,
+      "roll_rad": 0.12037771756512154,
+      "pitch_rad": -0.07551643761688072,
+      "slant_range_m": 5.123104548920052,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.071535177634738,
+        "depth_m": 0,
+        "raw_depth_m": -0.0037504166715291998,
+        "sigma_m": 0.04944032139219051,
+        "interval_95_m": [
+          0,
+          0.0931526132571642
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.13161690372588697
+    },
+    {
+      "minute": 111,
+      "rain_mm_h": 2.3515761575943194e-09,
+      "gauge_m": 0.11400059375732163,
+      "truth_m": 0.14512599969846574,
+      "accumulated_rain_mm": 34.53156094657367,
+      "x_m": 55.96638655462185,
+      "road_m": 0.4495021538026976,
+      "water_surface_m": 0.4495021538026976,
+      "roll_rad": 0.12555798206077948,
+      "pitch_rad": -0.07075964769136601,
+      "slant_range_m": 5.097480555542519,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.044697297445972,
+        "depth_m": 0.005800548751330348,
+        "raw_depth_m": 0.005800548751330348,
+        "sigma_m": 0.04944784223671049,
+        "interval_95_m": [
+          0,
+          0.1027183195352829
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.11263579872119911
+    },
+    {
+      "minute": 112,
+      "rain_mm_h": 1.1150179737136313e-09,
+      "gauge_m": 0.13699241426333797,
+      "truth_m": 0.14246729036093034,
+      "accumulated_rain_mm": 34.53156094659225,
+      "x_m": 56.470588235294116,
+      "road_m": 0.46712802768166084,
+      "water_surface_m": 0.46712802768166084,
+      "roll_rad": 0.12877895624033314,
+      "pitch_rad": -0.06541846992639194,
+      "slant_range_m": 5.08568442446457,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.032783799648398,
+        "depth_m": 8.8172669940767e-05,
+        "raw_depth_m": 8.8172669940767e-05,
+        "sigma_m": 0.04944761694157118,
+        "interval_95_m": [
+          0,
+          0.09700550187542029
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.11836176861663932
+    },
+    {
+      "minute": 113,
+      "rain_mm_h": 7.02455329585601e-10,
+      "gauge_m": 0.15883533304076838,
+      "truth_m": 0.1398572885970819,
+      "accumulated_rain_mm": 34.53156094660396,
+      "x_m": 56.97478991596638,
+      "road_m": 0.4850928606736811,
+      "water_surface_m": 0.4850928606736811,
+      "roll_rad": 0.1299903778789933,
+      "pitch_rad": -0.059537015894529394,
+      "slant_range_m": 5.072930913071558,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 5.02121890022728,
+        "depth_m": 0,
+        "raw_depth_m": -0.0063117609009606945,
+        "sigma_m": 0.04943614447596696,
+        "interval_95_m": [
+          0,
+          0.09058308227193455
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1368875299321026
+    },
+    {
+      "minute": 114,
+      "rain_mm_h": 3.1298937563589006e-10,
+      "gauge_m": 0.13193978590368446,
+      "truth_m": 0.13729510208383405,
+      "accumulated_rain_mm": 34.531560946609176,
+      "x_m": 57.47899159663866,
+      "road_m": 0.5033966527787587,
+      "water_surface_m": 0.5033966527787587,
+      "roll_rad": 0.12917334314725915,
+      "pitch_rad": -0.053163859187178475,
+      "slant_range_m": 5.0208934290091625,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.972028204780585,
+        "depth_m": 0.02457514244065606,
+        "raw_depth_m": 0.02457514244065606,
+        "sigma_m": 0.04940611808889586,
+        "interval_95_m": [
+          0,
+          0.12141113389489194
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1254258343455189
+    },
+    {
+      "minute": 115,
+      "rain_mm_h": 1.7396132728827954e-10,
+      "gauge_m": 0.19678177277198602,
+      "truth_m": 0.13477985484553465,
+      "accumulated_rain_mm": 34.531560946612075,
+      "x_m": 57.983193277310924,
+      "road_m": 0.5220394039968929,
+      "water_surface_m": 0.5220394039968929,
+      "roll_rad": 0.126340601598855,
+      "pitch_rad": -0.04635163425632194,
+      "slant_range_m": 5.028703271091982,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.983264674618117,
+        "depth_m": 0,
+        "raw_depth_m": -0.005304078615009922,
+        "sigma_m": 0.04937824174787934,
+        "interval_95_m": [
+          0,
+          0.09147727521083358
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.16329081948965224
+    },
+    {
+      "minute": 116,
+      "rain_mm_h": 1.1485757354650804e-10,
+      "gauge_m": 0.13460098826543848,
+      "truth_m": 0.13231068695435994,
+      "accumulated_rain_mm": 34.531560946613986,
+      "x_m": 58.48739495798319,
+      "road_m": 0.5410211143280841,
+      "water_surface_m": 0.5410211143280841,
+      "roll_rad": 0.1215363572182088,
+      "pitch_rad": -0.03915660171855638,
+      "slant_range_m": 5.009424509654319,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.968661199038229,
+        "depth_m": 0,
+        "raw_depth_m": -0.009682313366312645,
+        "sigma_m": 0.049336944406542196,
+        "interval_95_m": [
+          0,
+          0.08701809767051005
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.12058335230524864
+    },
+    {
+      "minute": 117,
+      "rain_mm_h": 4.9569135956893294e-11,
+      "gauge_m": 0.08993009780717567,
+      "truth_m": 0.12988675423634377,
+      "accumulated_rain_mm": 34.53156094661481,
+      "x_m": 58.99159663865546,
+      "road_m": 0.5603417837723323,
+      "water_surface_m": 0.5603417837723323,
+      "roll_rad": 0.1148355786320594,
+      "pitch_rad": -0.031638183711452425,
+      "slant_range_m": 4.986578025603213,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": false,
+        "reasons": [
+          "water_return_not_validated"
+        ],
+        "vertical_range_m": 4.951255541426465,
+        "depth_m": null,
+        "raw_depth_m": -0.011597325198797526,
+        "sigma_m": 0.049289182277974256,
+        "interval_95_m": null,
+        "status": "UNKNOWN",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.10106008674283329
+    },
+    {
+      "minute": 118,
+      "rain_mm_h": 3.1392553884622304e-11,
+      "gauge_m": 0.10739849995664785,
+      "truth_m": 0.12750722798280922,
+      "accumulated_rain_mm": 34.531560946615336,
+      "x_m": 59.49579831932773,
+      "road_m": 0.5800014123296378,
+      "water_surface_m": 0.5800014123296378,
+      "roll_rad": 0.10634282924911025,
+      "pitch_rad": -0.02385847313963433,
+      "slant_range_m": 4.938149105876558,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.908855688770081,
+        "depth_m": 0.011142898900281306,
+        "raw_depth_m": 0.011142898900281306,
+        "sigma_m": 0.04923513004853766,
+        "interval_95_m": [
+          0,
+          0.10764375379541512
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.11679939577208291
+    },
+    {
+      "minute": 119,
+      "rain_mm_h": 1.7692660760938086e-11,
+      "gauge_m": 0.12433354801931437,
+      "truth_m": 0.12517129466701518,
+      "accumulated_rain_mm": 34.531560946615635,
+      "x_m": 60.0,
+      "road_m": 0.6,
+      "water_surface_m": 0.6,
+      "roll_rad": 0.0961906355830087,
+      "pitch_rad": -0.015881720863599482,
+      "slant_range_m": 4.916934558717961,
+      "altitude_m": 5.5,
+      "local_truth_depth_m": 0,
+      "estimate": {
+        "accepted": true,
+        "reasons": [],
+        "vertical_range_m": 4.893587566647909,
+        "depth_m": 0.006412433352090852,
+        "raw_depth_m": 0.006412433352090852,
+        "sigma_m": 0.04918444252712794,
+        "interval_95_m": [
+          0,
+          0.10281394070526162
+        ],
+        "status": "OBSERVATION_REQUIRES_REVIEW",
+        "source": "synthetic_replay"
+      },
+      "forecast_m": 0.1194223216888563
+    }
+  ],
+  "horizon_min": 10,
+  "note": "Synthetic replay. Illustrative forecast. No road is classified safe.",
+  "hardware": [
+    {
+      "name": "Pixhawk 2.4.8",
+      "port": "Flight controller"
+    },
+    {
+      "name": "ESP8266",
+      "port": "TELEM1"
+    },
+    {
+      "name": "TF-Luna",
+      "port": "TELEM2"
+    },
+    {
+      "name": "ESP32-CAM",
+      "port": "PDB regulated 5V"
+    }
+  ]
+}
