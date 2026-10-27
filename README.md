@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📡 FLOOD DRONE RESEARCH 📡
+#  FLOOD DRONE RESEARCH 
 ### 3D Aerial Telemetry Quality Gating, Low-Water Crossing Depth Estimation & Spatial Observatory
 
 [![CI](https://github.com/mirmoosa1014-rgb/flood-drone-research/actions/workflows/ci.yml/badge.svg)](https://github.com/mirmoosa1014-rgb/flood-drone-research/actions/workflows/ci.yml)
@@ -114,9 +114,9 @@ ESP32-CAM is an image-stream source; no YOLOv8s-seg model is included or claimed
 - [MAVLink common messages](https://mavlink.io/en/messages/common.html), consulted for attitude, altitude/range units, coordinate frames and sensor orientation.
 - [Espressif esp32-camera](https://github.com/espressif/esp32-camera), consulted for acquisition/HTTP-streaming role. Host-side vision remains future work.
 
-## 👨‍💻 Author & Lead Developer
+##  Author & Lead Developer
 
-**Moosa Mir** is the primary developer and creator of this project. Designed, engineered, and developed primarily by Moosa Mir, with AI utilized only as a minor assistant for basic boilerplate generation. All aerial telemetry quality gating, low-water crossing depth estimation algorithms, 3D spatial observatory replay, and predictive flood models were directed and developed by Moosa Mir.
+**Moosa Mir** is the primary developer and creator of this project. Designed, engineered, and developed primarily by Moosa Mir, AI was used to help ideate. All aerial telemetry quality gating, low-water crossing depth estimation algorithms, 3D spatial observatory replay, and predictive flood models were directed and developed by Moosa Mir.
 
 ## Repository
 
