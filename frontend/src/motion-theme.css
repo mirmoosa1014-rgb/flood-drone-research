@@ -1,0 +1,35 @@
+/* motionstyle_signal — Data Signal */
+:root {
+  --bg: #070B16;
+  --bg-raised: #101828;
+  --surface: #0E1728;
+  --ink: #E8F1FF;
+  --text: #E7F0FA;
+  --text-dim: #8AA0B8;
+  --primary: #3EE0FF;
+  --primary-light: #A8F4FF;
+  --primary-dark: #1498B8;
+  --secondary: #7AA2FF;
+  --accent: #FFB020;
+  --danger: #FF5D73;
+  --ok: #3DDC97;
+  --info: #7AA2FF;
+  --grid: #17304A;
+  --radius: 8px;
+  --border-width: 1px;
+  --border-color: #17304A;
+  --shadow: none;
+  --blur: 0px;
+  --font-display: Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-body: Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-mono: SF Mono, ui-monospace, Menlo, Consolas, monospace;
+  --stagger: 0.06s;
+  --duration-bar-grow: 0.7s;
+  --ease-bar-grow: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-line-draw: 0.9s;
+  --ease-line-draw: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-count-up: 0.8s;
+  --ease-count-up: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-tick-in: 0.25s;
+  --ease-tick-in: cubic-bezier(0.16, 1, 0.3, 1);
+}

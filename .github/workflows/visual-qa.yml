@@ -1,0 +1,47 @@
+name: Visual QA
+on:
+  push:
+    branches:
+      - 'design/**'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'frontend/**'
+      - 'flood_drone/**'
+      - 'scripts/visual_qa.py'
+      - '.github/workflows/visual-qa.yml'
+permissions:
+  contents: read
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install frontend and build
+        run: npm ci && npm run build
+        working-directory: frontend
+      - name: Install pinned Playwright browser
+        run: npx playwright install --with-deps chromium
+        working-directory: frontend
+      - name: Verify replay, exports, hardware views, responsive layout and reduced motion
+        run: python scripts/visual_qa.py
+      - name: Upload actual app captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flood-drone-signal-captures
+          path: |
+            docs/images/app.png
+            docs/images/app-mobile.png
+            docs/images/app-reduced-motion.png
+          if-no-files-found: warn
+          retention-days: 14
