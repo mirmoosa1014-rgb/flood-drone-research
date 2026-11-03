@@ -34,6 +34,13 @@ class Tests(unittest.TestCase):
         m=train(range(3));metrics,rows=evaluate(m,range(1000,1002));self.assertFalse(set(m['train_seeds'])&{r['seed'] for r in rows});self.assertTrue(math.isfinite(metrics['model_mae_m']))
     def test_model(self):
         m=train(range(3));self.assertEqual(len(m['coefficients']),5);self.assertGreaterEqual(predict(m,episode(7),30),0)
+    def test_generator_seed_metadata(self):
+        expected=train(range(3));actual=train(iter(range(3)))
+        self.assertEqual(actual,expected)
+        self.assertEqual(evaluate(expected,iter(range(1000,1002))),evaluate(expected,range(1000,1002)))
+    def test_empty_seed_collections(self):
+        with self.assertRaises(ValueError):train(iter([]))
+        with self.assertRaises(ValueError):evaluate(train(range(3)),iter([]))
     def test_normalize(self):
         a=normalize(dict(mavpackettype='GLOBAL_POSITION_INT',time_boot_ms=1000,lat=330000000,lon=-960000000,alt=123000,relative_alt=5000),4);self.assertEqual(a['altitude_m'],123);self.assertEqual(a['datum'],'MSL');self.assertEqual(a['relative_alt_m'],5)
     def test_range_orientation(self):

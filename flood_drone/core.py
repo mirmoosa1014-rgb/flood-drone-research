@@ -63,6 +63,8 @@ def solve(a,b):
                 d=m[i][k];m[i]=[x-d*y for x,y in zip(m[i],m[k])]
     return [r[-1] for r in m]
 def train(seeds=range(80))->dict:
+    seeds=list(seeds)
+    if not seeds:raise ValueError('at least one training seed required')
     a=[[0.0]*5 for _ in range(5)];b=[0.0]*5
     for seed in seeds:
         rows=episode(seed)
@@ -75,6 +77,8 @@ def train(seeds=range(80))->dict:
     return dict(type='ridge-linear',features=['intercept','current_gauge_m','rain_mm_h/100','gauge_delta_5min_m','rain_history_10min/1000'],coefficients=solve(a,b),horizon_min=10,train_seeds=list(seeds),version=1)
 def predict(model,rows,t):return max(0,sum(a*b for a,b in zip(model['coefficients'],features(rows,t))))
 def evaluate(model,seeds=range(1000,1020),storm=1.0):
+    seeds=list(seeds)
+    if not seeds:raise ValueError('at least one evaluation seed required')
     records=[]
     for seed in seeds:
         rows=episode(seed,storm=storm)
