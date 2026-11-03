@@ -19,7 +19,9 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             n=int(self.headers.get('Content-Length','0'))
             if not 0<n<10000:return self.reply(413,{'error':'Telemetry body must be below 10kB'})
-            body=json.loads(self.rfile.read(n));now=body.pop('now_s');return self.reply(200,estimate(Sample(**body),now))
+            body=json.loads(self.rfile.read(n))
+            if not isinstance(body,dict):raise ValueError('Telemetry must be a JSON object')
+            now=body.pop('now_s');return self.reply(200,estimate(Sample(**body),now))
         except (ValueError,TypeError,KeyError):return self.reply(422,{'error':'Malformed telemetry'})
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--port',type=int,default=8106);a=p.parse_args();print(f'Flood Drone research workbench http://127.0.0.1:{a.port}',flush=True);ThreadingHTTPServer(('127.0.0.1',a.port),Handler).serve_forever()
