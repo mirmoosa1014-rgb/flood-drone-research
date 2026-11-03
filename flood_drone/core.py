@@ -23,6 +23,7 @@ class Sample:
     source:str='external'
 def estimate(sample:Sample,now_s:float)->dict:
     """Project a rigid downward beam; refuse unsynchronized/unvalidated water returns."""
+    if type(sample.water_return_validated)!=bool:raise ValueError('water_return_validated must be a boolean')
     if not math.isfinite(now_s):raise ValueError('now_s must be finite')
     for key,value in asdict(sample).items():
         if isinstance(value,(float,int)) and not isinstance(value,bool) and not math.isfinite(value):raise ValueError(f'{key} must be finite')

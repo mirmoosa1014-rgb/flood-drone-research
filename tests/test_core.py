@@ -13,6 +13,10 @@ class Tests(unittest.TestCase):
     def test_datum(self):self.assertFalse(estimate(replace(self.s,datum='ellipsoid'),10)['accepted'])
     def test_uncertainty(self):self.assertFalse(estimate(replace(self.s,altitude_sigma_m=2),10)['accepted'])
     def test_water_validation(self):self.assertEqual(estimate(replace(self.s,water_return_validated=False),10)['depth_m'],None)
+    def test_water_validation_requires_boolean(self):
+        for value in ['false','true',1,0,None,[]]:
+            with self.subTest(value=value),self.assertRaises(ValueError):
+                estimate(replace(self.s,water_return_validated=value),10)
     def test_range(self):self.assertFalse(estimate(replace(self.s,slant_range_m=.1),10)['accepted'])
     def test_tilt_bound(self):self.assertFalse(estimate(replace(self.s,roll_rad=.5),10)['accepted'])
     def test_nan(self):
