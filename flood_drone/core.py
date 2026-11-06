@@ -1,5 +1,5 @@
 from __future__ import annotations
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 import json, math, random
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -24,9 +24,12 @@ class Sample:
 def estimate(sample:Sample,now_s:float)->dict:
     """Project a rigid downward beam; refuse unsynchronized/unvalidated water returns."""
     if type(sample.water_return_validated)!=bool:raise ValueError('water_return_validated must be a boolean')
-    if not math.isfinite(now_s):raise ValueError('now_s must be finite')
-    for key,value in asdict(sample).items():
-        if isinstance(value,(float,int)) and not isinstance(value,bool) and not math.isfinite(value):raise ValueError(f'{key} must be finite')
+    if type(now_s) not in (int,float) or not math.isfinite(now_s):raise ValueError('now_s must be a finite number')
+    for key in ('timestamp_s','attitude_timestamp_s','altitude_timestamp_s','slant_range_m',
+                'roll_rad','pitch_rad','altitude_m','road_elevation_m','altitude_sigma_m',
+                'range_sigma_m','baseline_sigma_m','attitude_sigma_rad'):
+        value=getattr(sample,key)
+        if type(value) not in (int,float) or not math.isfinite(value):raise ValueError(f'{key} must be a finite number')
     if any(getattr(sample,k)<0 for k in ['altitude_sigma_m','range_sigma_m','baseline_sigma_m','attitude_sigma_rad']):raise ValueError('uncertainties must be nonnegative')
     reasons=[]
     if now_s<sample.timestamp_s or now_s-sample.timestamp_s>2:reasons.append('stale_or_future_sample')
