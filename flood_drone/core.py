@@ -47,7 +47,7 @@ def estimate(sample:Sample,now_s:float)->dict:
     if sigma>.15:reasons.append('uncertainty_too_large')
     return dict(accepted=not reasons,reasons=reasons,vertical_range_m=vertical,depth_m=max(0,raw_depth) if not reasons else None,raw_depth_m=raw_depth,sigma_m=sigma,interval_95_m=[max(0,raw_depth-1.96*sigma),max(0,raw_depth+1.96*sigma)] if not reasons else None,status='OBSERVATION_REQUIRES_REVIEW' if not reasons else 'UNKNOWN',source=sample.source)
 def episode(seed:int,steps:int=120,storm:float=1.0)->list[dict]:
-    if not 0<=seed<=2**31-1 or not 10<=steps<=360 or not .2<=storm<=3:raise ValueError('scenario outside bounded envelope')
+    if type(seed) is not int or type(steps) is not int or type(storm) not in (int,float) or not 0<=seed<=2**31-1 or not 10<=steps<=360 or not .2<=storm<=3:raise ValueError('scenario outside bounded envelope')
     rng=random.Random(seed);peak,width=rng.uniform(25,65),rng.uniform(10,23);runoff,drainage=rng.uniform(.55,.9),rng.uniform(.008,.02)
     depth=.01;rain_sum=0;out=[]
     for t in range(steps):
