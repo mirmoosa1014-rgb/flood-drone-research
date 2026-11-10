@@ -40,8 +40,10 @@ def estimate(sample:Sample,now_s:float)->dict:
     if not sample.water_return_validated:reasons.append('water_return_not_validated')
     c=math.cos(sample.roll_rad)*math.cos(sample.pitch_rad);vertical=sample.slant_range_m*c
     raw_depth=sample.altitude_m-vertical-sample.road_elevation_m
-    tilt_var=(sample.slant_range_m*math.sin(sample.roll_rad)*math.cos(sample.pitch_rad)*sample.attitude_sigma_rad)**2+(sample.slant_range_m*math.cos(sample.roll_rad)*math.sin(sample.pitch_rad)*sample.attitude_sigma_rad)**2
-    sigma=math.sqrt(sample.altitude_sigma_m**2+(c*sample.range_sigma_m)**2+sample.baseline_sigma_m**2+tilt_var)
+    roll_error=sample.slant_range_m*math.sin(sample.roll_rad)*math.cos(sample.pitch_rad)*sample.attitude_sigma_rad
+    pitch_error=sample.slant_range_m*math.cos(sample.roll_rad)*math.sin(sample.pitch_rad)*sample.attitude_sigma_rad
+    sigma=math.hypot(sample.altitude_sigma_m,c*sample.range_sigma_m,sample.baseline_sigma_m,roll_error,pitch_error)
+    if not all(math.isfinite(v) for v in (vertical,raw_depth,sigma)):raise ValueError('derived measurements must be finite')
     if sigma>.15:reasons.append('uncertainty_too_large')
     return dict(accepted=not reasons,reasons=reasons,vertical_range_m=vertical,depth_m=max(0,raw_depth) if not reasons else None,raw_depth_m=raw_depth,sigma_m=sigma,interval_95_m=[max(0,raw_depth-1.96*sigma),max(0,raw_depth+1.96*sigma)] if not reasons else None,status='OBSERVATION_REQUIRES_REVIEW' if not reasons else 'UNKNOWN',source=sample.source)
 def episode(seed:int,steps:int=120,storm:float=1.0)->list[dict]:
