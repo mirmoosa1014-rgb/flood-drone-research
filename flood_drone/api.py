@@ -5,7 +5,7 @@ from pydantic import BaseModel,ConfigDict,Field
 from .core import ROOT,Sample,demo,estimate
 app=FastAPI(title='Flood Drone Research Workbench',version='1.0.0')
 class Telemetry(BaseModel):
-    model_config=ConfigDict(extra='forbid',allow_inf_nan=False)
+    model_config=ConfigDict(extra='forbid',allow_inf_nan=False,strict=True)
     timestamp_s:float
     attitude_timestamp_s:float
     altitude_timestamp_s:float
